@@ -1,0 +1,20 @@
+获取当前日期和时间 datetime.now()
+获取指定日期和时间 datetime('2016','5','13','12','13','33')
+转换成时间戳datetime.timestamp()
+    dt = datetime(2015, 4, 19, 12, 20) # 用指定日期时间创建datetime
+    dt.timestamp() # 把datetime转换为timestamp
+时间戳转换成时间,datetime.fromtimestamp()
+    t = 1429417200.0
+    print(datetime.fromtimestamp(t))
+    >>>2015-04-19 12:20:00
+时间戳转换成UTC时间，datetime.utcfromtimestamp(t))
+    t = 1429417200.0
+    print(datetime.utcfromtimestamp(t)) # UTC时间
+    >>>2015-04-19 04:20:00
+str转换为datetime datetime.strptime()
+datetime转换成str datetime.strftime()
+
+
+sudo add-apt-repository ppa:strukturag/libde265
+sudo aptitude update
+sudo apt-get install vlc-plugin-libde265
