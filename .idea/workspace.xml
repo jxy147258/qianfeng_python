@@ -2,87 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="152e0c88-1119-4035-aa46-9f7b76524fef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/python_shell.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/Node_next_value.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/singlelinklist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/18.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/KaoyanNews.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/YanZhaoWang.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/appily_memory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/call_myself.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/charactart_as_object.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/check_button.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/closure.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/continue_break.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/count_of_while.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/discriminate_face.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/each_line.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/face.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/face_reconmend.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/feibonaqie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/find_in_subfile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/find_min_max.py.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/img_merge.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/init_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/lianbiao_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/map_reduce_filter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/meizi_pic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/moni_jindu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/multi_inherit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/open_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/peggie.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/peiqi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/radiobutton.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/return_local.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/shijian_zhicha.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/single_LinkList.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/spyder123.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/sushu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/test1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/test2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/test_Numpy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/test_class_private.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/test_class_private1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/test_decorator_functools.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/test_fork.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/test_fork2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/test_functools_sorted.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/test_itchat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/test_md5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/test_modules.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/test_modules_imported.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/test_name_main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/test_pylab.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/test_qrcode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/test_tkinter_label.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/test_twilio_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/tianshu_zhicha.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/with_as_shengchengshi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/yiedl_hanshu_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/yield_hanshu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/yield_hanshu_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/yin'yang.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/查询招生信息.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/自己靠努力去幸福.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Network/socket_to_weibo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Network/tcp_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Network/tcp_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Network/udp_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Network/udp_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Notepad/RegExp.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Notepad/temporary.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Notepad/test_MarkDown.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thread/datetime2timestamp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thread/test_threading_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thread/test_threading_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jetbrains-agent.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/bianli_mulu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/test_dqueue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/Activate.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/activate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/activate.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/deactivate.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/python.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/python_d.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/pythonw.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/pythonw_d.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python_shell.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_shell.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/open_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/FeatureTestingPy/open_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/radiobutton.py" beforeDir="false" afterPath="$PROJECT_DIR$/FeatureTestingPy/radiobutton.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/shijian_zhicha.py" beforeDir="false" afterPath="$PROJECT_DIR$/FeatureTestingPy/shijian_zhicha.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/test_pylab.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notepad/test_MarkDown.md" beforeDir="false" afterPath="$PROJECT_DIR$/Notepad/test_MarkDown.md" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,65 +31,36 @@
   <component name="FavoritesManager">
     <favorites_list name="python_shell" />
   </component>
-  <component name="FileEditorManager">
-    <leaf />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/FeatureTestingPy/with_as_shengchengshi.py" />
-      </list>
-    </option>
+  <component name="ProjectId" id="1XHBAqXphdSDk8VMi6WVUG5b8UY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="python_shell" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_shell" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.singlelinklist">
-    <configuration name="Node_next_value" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.open_file">
+    <configuration name="bianli_mulu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -157,11 +68,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataStructure" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FeatureTestingPy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataStructure/Node_next_value.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FeatureTestingPy/bianli_mulu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,7 +81,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="singlelinklist" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="map_reduce_filter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -178,11 +89,74 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataStructure" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FeatureTestingPy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataStructure/singlelinklist.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FeatureTestingPy/map_reduce_filter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="open_file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_shell" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FeatureTestingPy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FeatureTestingPy/open_file.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="radiobutton" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_shell" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FeatureTestingPy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FeatureTestingPy/radiobutton.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_dqueue" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_shell" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FeatureTestingPy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FeatureTestingPy/test_dqueue.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -193,8 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.singlelinklist" />
-        <item itemvalue="Python.Node_next_value" />
+        <item itemvalue="Python.open_file" />
+        <item itemvalue="Python.bianli_mulu" />
+        <item itemvalue="Python.radiobutton" />
+        <item itemvalue="Python.test_dqueue" />
+        <item itemvalue="Python.map_reduce_filter" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557811821362</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="from pycharm commuity edition 20190621">
+      <created>1561090727957</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1561090727957</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -228,65 +212,45 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.23660715" />
-      <window_info id="Structure" order="1" sideWeight="0.5008183" side_tool="true" weight="0.24330357" />
-      <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24330357" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4985119" weight="0.3289689" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5014881" side_tool="true" visible="true" weight="0.29836065" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="from pycharm commuity edition 20190514" />
-    <option name="LAST_COMMIT_MESSAGE" value="from pycharm commuity edition 20190514" />
+    <MESSAGE value="from pycharm commuity edition 20190621" />
+    <option name="LAST_COMMIT_MESSAGE" value="from pycharm commuity edition 20190621" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DataStructure/singlelinklist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructure/Node_next_value.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FeatureTestingPy/itchat.pkl" />
-    <entry file="file://$PROJECT_DIR$/FeatureTestingPy/README.md" />
-    <entry file="file://$PROJECT_DIR$/FeatureTestingPy/test_turtle.ipynb" />
-    <entry file="file://$PROJECT_DIR$/FeatureTestingPy/with_as_shengchengshi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Notepad/test_MarkDown.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state width="1345" height="159" key="GridCell.Tab.0.bottom" timestamp="1580711285181">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="159" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580711285181" />
+    <state width="1345" height="159" key="GridCell.Tab.0.center" timestamp="1580711285181">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="159" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580711285181" />
+    <state width="1345" height="159" key="GridCell.Tab.0.left" timestamp="1580711285181">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="159" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580711285181" />
+    <state width="1345" height="159" key="GridCell.Tab.0.right" timestamp="1580711285181">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="159" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580711285181" />
+    <state x="186" y="9" key="SettingsEditor" timestamp="1580693104795">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580693104795" />
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1580693982456">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1580693982456" />
+    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580715488742">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1580715488742" />
+    <state x="346" y="49" key="search.everywhere.popup" timestamp="1580693349860">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1580693349860" />
   </component>
   <component name="masterDetails">
     <states>

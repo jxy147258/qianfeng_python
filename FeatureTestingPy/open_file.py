@@ -6,4 +6,6 @@ Created on Tue Sep  4 17:57:11 2018
 """
 
 f = open("result.txt","r")
-print(f.read()) #读出来的内容是一行一行的
+for i in range(10):
+    print(str(i)+"行"+f.read()) #读出来的内容是一行一行的
+f.close()
