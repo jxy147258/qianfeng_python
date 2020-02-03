@@ -2,26 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="152e0c88-1119-4035-aa46-9f7b76524fef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/bianli_mulu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/result.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FeatureTestingPy/test_dqueue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/Activate.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/activate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/activate.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/deactivate.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/python.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/python_d.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/pythonw.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Scripts/pythonw_d.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urlopen-1.0.0-py3.8.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urlopen-1.0.0-py3.8.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urlopen-1.0.0-py3.8.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urlopen-1.0.0-py3.8.egg-info/installed-files.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urlopen-1.0.0-py3.8.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/urlopen.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/python_shell.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_shell.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/open_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/FeatureTestingPy/open_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/radiobutton.py" beforeDir="false" afterPath="$PROJECT_DIR$/FeatureTestingPy/radiobutton.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/KaoyanNews.py" beforeDir="false" afterPath="$PROJECT_DIR$/FeatureTestingPy/KaoyanNews.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FeatureTestingPy/shijian_zhicha.py" beforeDir="false" afterPath="$PROJECT_DIR$/FeatureTestingPy/shijian_zhicha.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/test_pylab.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notepad/test_MarkDown.md" beforeDir="false" afterPath="$PROJECT_DIR$/Notepad/test_MarkDown.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +32,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/jxy147258/python_shell" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1XHBAqXphdSDk8VMi6WVUG5b8UY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -57,9 +54,30 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.open_file">
+  <component name="RunManager" selected="Python.KaoyanNews">
+    <configuration name="KaoyanNews" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_shell" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FeatureTestingPy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FeatureTestingPy/KaoyanNews.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="bianli_mulu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -73,27 +91,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FeatureTestingPy/bianli_mulu.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="map_reduce_filter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_shell" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FeatureTestingPy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FeatureTestingPy/map_reduce_filter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,7 +141,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_dqueue" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="shijian_zhicha" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -156,7 +153,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FeatureTestingPy/test_dqueue.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FeatureTestingPy/shijian_zhicha.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.KaoyanNews" />
+        <item itemvalue="Python.shijian_zhicha" />
         <item itemvalue="Python.open_file" />
         <item itemvalue="Python.bianli_mulu" />
         <item itemvalue="Python.radiobutton" />
-        <item itemvalue="Python.test_dqueue" />
-        <item itemvalue="Python.map_reduce_filter" />
       </list>
     </recent_temporary>
   </component>
@@ -200,45 +197,59 @@
       <option name="project" value="LOCAL" />
       <updated>1561090727957</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="from pycharm commuity edition 20200203">
+      <created>1580715535994</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580715535994</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="from pycharm commuity edition 20190514" />
     <MESSAGE value="from pycharm commuity edition 20190621" />
-    <option name="LAST_COMMIT_MESSAGE" value="from pycharm commuity edition 20190621" />
+    <MESSAGE value="from pycharm commuity edition 20200203" />
+    <option name="LAST_COMMIT_MESSAGE" value="from pycharm commuity edition 20200203" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1345" height="159" key="GridCell.Tab.0.bottom" timestamp="1580711285181">
+    <state x="334" y="0" key="CommitChangelistDialog2" timestamp="1580715533143">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="159" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580711285181" />
-    <state width="1345" height="159" key="GridCell.Tab.0.center" timestamp="1580711285181">
+    <state x="334" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580715533143" />
+    <state width="1345" height="159" key="GridCell.Tab.0.bottom" timestamp="1580718832945">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="159" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580711285181" />
-    <state width="1345" height="159" key="GridCell.Tab.0.left" timestamp="1580711285181">
+    <state width="1345" height="159" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580718832945" />
+    <state width="1345" height="159" key="GridCell.Tab.0.center" timestamp="1580718832945">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="159" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580711285181" />
-    <state width="1345" height="159" key="GridCell.Tab.0.right" timestamp="1580711285181">
+    <state width="1345" height="159" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580718832945" />
+    <state width="1345" height="159" key="GridCell.Tab.0.left" timestamp="1580718832945">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="159" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580711285181" />
-    <state x="186" y="9" key="SettingsEditor" timestamp="1580693104795">
+    <state width="1345" height="159" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580718832945" />
+    <state width="1345" height="159" key="GridCell.Tab.0.right" timestamp="1580718832945">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580693104795" />
+    <state width="1345" height="159" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580718832945" />
+    <state x="202" y="7" key="SettingsEditor" timestamp="1580716695953">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="202" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580716695953" />
     <state x="375" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1580693982456">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
