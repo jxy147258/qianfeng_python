@@ -2,162 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="152e0c88-1119-4035-aa46-9f7b76524fef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/os和时间模块/1，递归.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/os和时间模块/2，队列.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/os和时间模块/3，栈.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/DataStructure/Node_next_value.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/DataStructure/singlelinklist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/18.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/KaoyanNews.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/YanZhaoWang.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/appily_memory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/bianli_mulu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/call_myself.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/charactart_as_object.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/check_button.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/closure.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/continue_break.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/count_of_while.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/discriminate_face.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/each_line.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/face.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/face_reconmend.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/feibonaqie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/find_in_subfile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/find_min_max.py.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/img_merge.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/init_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/lianbiao_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/map_reduce_filter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/meizi_pic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/moni_jindu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/multi_inherit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/open_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/peggie.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/peiqi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/radiobutton.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/result.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/return_local.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/shijian_zhicha.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/single_LinkList.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/spyder123.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/sushu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/test1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/test2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/test_Numpy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/test_class_private.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/test_class_private1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/test_decorator_functools.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/test_dqueue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/test_fork.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/test_fork2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/test_functools_sorted.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/test_itchat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/test_md5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/test_modules.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/test_modules_imported.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/test_name_main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/test_qrcode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/test_tkinter_label.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/test_twilio_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/tianshu_zhicha.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/with_as_shengchengshi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/yiedl_hanshu_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/yield_hanshu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/yield_hanshu_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/yin'yang.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/查询招生信息.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/自己靠努力去幸福.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/Network/socket_to_weibo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/Network/tcp_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/Network/tcp_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/Network/udp_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/Network/udp_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/Notepad/RegExp.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/Notepad/temporary.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/Notepad/test_MarkDown.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/Thread/datetime2timestamp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/Thread/test_threading_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/Thread/test_threading_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/Node_next_value.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure/singlelinklist.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/18.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/KaoyanNews.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/YanZhaoWang.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/appily_memory.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/bianli_mulu.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/call_myself.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/charactart_as_object.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/check_button.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/closure.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/continue_break.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/count_of_while.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/discriminate_face.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/each_line.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/face.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/face_reconmend.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/feibonaqie.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/find_in_subfile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/find_min_max.py.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/img_merge.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/init_demo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/lianbiao_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/logo2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/map_reduce_filter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/meizi_pic.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/moni_jindu.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/multi_inherit.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/open_file.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/peggie.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/peiqi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/radiobutton.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/result.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/return_local.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/shijian_zhicha.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/single_LinkList.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/spyder123.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/sushu.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/test1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/test2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/test_Numpy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/test_class_private.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/test_class_private1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/test_decorator_functools.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/test_dqueue.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/test_fork.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/test_fork2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/test_functools_sorted.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/test_itchat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/test_md5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/test_modules.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/test_modules_imported.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/test_name_main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/test_qrcode.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/test_tkinter_label.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/test_twilio_client.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/tianshu_zhicha.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/with_as_shengchengshi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/yiedl_hanshu_2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/yield_hanshu.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/yield_hanshu_3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/yin'yang.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/查询招生信息.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FeatureTestingPy/自己靠努力去幸福.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network/socket_to_weibo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network/tcp_client.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network/tcp_server.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network/udp_client.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network/udp_server.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notepad/RegExp.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notepad/temporary.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notepad/test_MarkDown.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thread/datetime2timestamp.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thread/test_threading_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thread/test_threading_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianfeng_400/os和时间模块/2，队列.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/os和时间模块/2，队列.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianfeng_400/os和时间模块/4，目录遍历.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/os和时间模块/4，目录遍历.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/self-learning/FeatureTestingPy/bianli_mulu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/self-learning/FeatureTestingPy/call_myself.py" beforeDir="false" afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/call_myself.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/self-learning/FeatureTestingPy/test_dqueue.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,9 +50,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="Python.KaoyanNews">
+  <component name="RunManager" selected="Python.call_myself">
     <configuration name="KaoyanNews" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -245,6 +95,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="call_myself" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_shell" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/self-learning/FeatureTestingPy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/self-learning/FeatureTestingPy/call_myself.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="open_file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -258,27 +129,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FeatureTestingPy/open_file.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="radiobutton" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_shell" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FeatureTestingPy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FeatureTestingPy/radiobutton.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -310,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.call_myself" />
         <item itemvalue="Python.KaoyanNews" />
         <item itemvalue="Python.shijian_zhicha" />
         <item itemvalue="Python.open_file" />
         <item itemvalue="Python.bianli_mulu" />
-        <item itemvalue="Python.radiobutton" />
       </list>
     </recent_temporary>
   </component>
@@ -357,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580720545465</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="根据视频，整理目录，视频和目录一一对应">
+      <created>1580728135162</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1580728135162</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -377,7 +234,8 @@
     <MESSAGE value="from pycharm commuity edition 20190621" />
     <MESSAGE value="from pycharm commuity edition 20200203" />
     <MESSAGE value="from pycharm commuity edition 20200203170200" />
-    <option name="LAST_COMMIT_MESSAGE" value="from pycharm commuity edition 20200203170200" />
+    <MESSAGE value="根据视频，整理目录，视频和目录一一对应" />
+    <option name="LAST_COMMIT_MESSAGE" value="根据视频，整理目录，视频和目录一一对应" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="25" key="#Notifications" timestamp="1580720664382">
@@ -388,30 +246,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="409" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1580727742312" />
-    <state x="334" y="0" key="CommitChangelistDialog2" timestamp="1580720543656">
+    <state x="289" y="0" key="CommitChangelistDialog2" timestamp="1580728133212">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="334" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580720543656" />
-    <state width="672" height="159" key="GridCell.Tab.0.bottom" timestamp="1580720669471">
+    <state x="289" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580728133212" />
+    <state x="547" y="259" width="274" height="209" key="Github.ShareDialog" timestamp="1580728632490">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="672" height="159" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580720669471" />
-    <state width="672" height="159" key="GridCell.Tab.0.center" timestamp="1580720669471">
+    <state x="547" y="259" width="274" height="209" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1580728632490" />
+    <state width="1345" height="159" key="GridCell.Tab.0.bottom" timestamp="1580738343061">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="672" height="159" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580720669471" />
-    <state width="672" height="159" key="GridCell.Tab.0.left" timestamp="1580720669471">
+    <state width="1345" height="159" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580738343061" />
+    <state width="1345" height="159" key="GridCell.Tab.0.center" timestamp="1580738343060">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="672" height="159" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580720669471" />
-    <state width="672" height="159" key="GridCell.Tab.0.right" timestamp="1580720669471">
+    <state width="1345" height="159" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580738343060" />
+    <state width="1345" height="159" key="GridCell.Tab.0.left" timestamp="1580738343060">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="672" height="159" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580720669471" />
-    <state x="202" y="7" key="SettingsEditor" timestamp="1580716695953">
+    <state width="1345" height="159" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580738343060" />
+    <state width="1345" height="159" key="GridCell.Tab.0.right" timestamp="1580738343060">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="202" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580716695953" />
+    <state width="1345" height="159" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580738343060" />
+    <state x="234" y="18" key="SettingsEditor" timestamp="1580728458056">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="234" y="18" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580728458056" />
     <state x="229" y="60" key="Vcs.Push.Dialog.v2" timestamp="1580720637621">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
