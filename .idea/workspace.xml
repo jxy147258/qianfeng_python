@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="152e0c88-1119-4035-aa46-9f7b76524fef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qianfeng_400/os和时间模块/2，队列.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/os和时间模块/2，队列.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qianfeng_400/os和时间模块/4，目录遍历.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/os和时间模块/4，目录遍历.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/self-learning/FeatureTestingPy/bianli_mulu.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/self-learning/FeatureTestingPy/call_myself.py" beforeDir="false" afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/call_myself.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/self-learning/FeatureTestingPy/test_dqueue.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +27,7 @@
     <option name="hiddenUrls">
       <set>
         <option value="https://github.com/jxy147258/python_shell" />
+        <option value="https://github.com/jxy147258/qianfeng_python.git" />
       </set>
     </option>
   </component>
@@ -50,7 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
   </component>
   <component name="RunManager" selected="Python.call_myself">
     <configuration name="KaoyanNews" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -214,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580728135162</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add content to os和时间模块">
+      <created>1580738547844</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1580738547844</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,7 +238,8 @@
     <MESSAGE value="from pycharm commuity edition 20200203" />
     <MESSAGE value="from pycharm commuity edition 20200203170200" />
     <MESSAGE value="根据视频，整理目录，视频和目录一一对应" />
-    <option name="LAST_COMMIT_MESSAGE" value="根据视频，整理目录，视频和目录一一对应" />
+    <MESSAGE value="add content to os和时间模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="add content to os和时间模块" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="25" key="#Notifications" timestamp="1580720664382">
@@ -246,46 +250,50 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="409" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1580727742312" />
-    <state x="289" y="0" key="CommitChangelistDialog2" timestamp="1580728133212">
+    <state x="415" y="0" key="CommitChangelistDialog2" timestamp="1580738545883">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="289" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580728133212" />
+    <state x="415" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580738545883" />
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1580792886775">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1580792886775" />
     <state x="547" y="259" width="274" height="209" key="Github.ShareDialog" timestamp="1580728632490">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="547" y="259" width="274" height="209" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1580728632490" />
-    <state width="1345" height="159" key="GridCell.Tab.0.bottom" timestamp="1580738343061">
+    <state width="672" height="159" key="GridCell.Tab.0.bottom" timestamp="1580782768866">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="159" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580738343061" />
-    <state width="1345" height="159" key="GridCell.Tab.0.center" timestamp="1580738343060">
+    <state width="672" height="159" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580782768866" />
+    <state width="672" height="159" key="GridCell.Tab.0.center" timestamp="1580782768866">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="159" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580738343060" />
-    <state width="1345" height="159" key="GridCell.Tab.0.left" timestamp="1580738343060">
+    <state width="672" height="159" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580782768866" />
+    <state width="672" height="159" key="GridCell.Tab.0.left" timestamp="1580782768866">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="159" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580738343060" />
-    <state width="1345" height="159" key="GridCell.Tab.0.right" timestamp="1580738343060">
+    <state width="672" height="159" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580782768866" />
+    <state width="672" height="159" key="GridCell.Tab.0.right" timestamp="1580782768866">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="159" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580738343060" />
-    <state x="234" y="18" key="SettingsEditor" timestamp="1580728458056">
+    <state width="672" height="159" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580782768866" />
+    <state x="234" y="18" key="SettingsEditor" timestamp="1580793724654">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="234" y="18" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580728458056" />
-    <state x="229" y="60" key="Vcs.Push.Dialog.v2" timestamp="1580720637621">
+    <state x="234" y="18" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580793724654" />
+    <state x="229" y="60" key="Vcs.Push.Dialog.v2" timestamp="1580738605392">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="229" y="60" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1580720637621" />
+    <state x="229" y="60" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1580738605392" />
     <state x="375" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1580693982456">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="375" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1580693982456" />
-    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580720560582">
+    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580782801474">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1580720560582" />
+    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1580782801474" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1580720582977">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
