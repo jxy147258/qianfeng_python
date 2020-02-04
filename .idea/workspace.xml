@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="152e0c88-1119-4035-aa46-9f7b76524fef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jetbrains-agent.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580738547844</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="modify readme from pycharm updating to git-cli">
+      <created>1580809364646</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1580809364646</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,21 +247,26 @@
     <MESSAGE value="from pycharm commuity edition 20200203170200" />
     <MESSAGE value="根据视频，整理目录，视频和目录一一对应" />
     <MESSAGE value="add content to os和时间模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="add content to os和时间模块" />
+    <MESSAGE value="modify readme from pycharm updating to git-cli" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify readme from pycharm updating to git-cli" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="25" key="#Notifications" timestamp="1580720664382">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="25" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1580720664382" />
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580810904789">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1580810904789" />
     <state x="409" y="172" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580727742312">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="409" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1580727742312" />
-    <state x="415" y="0" key="CommitChangelistDialog2" timestamp="1580738545883">
+    <state x="415" y="0" key="CommitChangelistDialog2" timestamp="1580809363102">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="415" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580738545883" />
+    <state x="415" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580809363102" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1580792886775">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -283,10 +295,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="234" y="18" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580793724654" />
-    <state x="229" y="60" key="Vcs.Push.Dialog.v2" timestamp="1580738605392">
+    <state x="229" y="60" key="Vcs.Push.Dialog.v2" timestamp="1580813465675">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="229" y="60" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1580738605392" />
+    <state x="229" y="60" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1580813465675" />
     <state x="375" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1580693982456">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
