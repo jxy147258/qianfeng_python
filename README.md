@@ -4,3 +4,4 @@
 3,this is a test for branch 01:05:00
 4,从helpjxy147258账户上，增加测试内容
 5，我是原作者，我更新了readme文件，请fork了此项目的programer拉取最新文件
+6,one of branch pull lastest code from master ,then another branch pull from branch
