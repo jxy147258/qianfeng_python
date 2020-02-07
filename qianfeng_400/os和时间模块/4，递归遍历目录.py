@@ -12,4 +12,4 @@ def getalldir(path,sp=""):
         else:
             print(sp + "普通 文件：",filename)
 
-getalldir(r"F:\python_G\python_shell\venv")
+getalldir(r"F:\python_G")
