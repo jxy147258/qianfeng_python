@@ -6,3 +6,4 @@
 5,我是原作者，我更新了readme文件，请fork了此项目的programer拉取最新文件  
 6,one of branch pull lastest code from master ,then another branch pull from branch  
 7,add something from local pc by git-cli  
+8,modifyreadme at github.com，updating 同local pc
