@@ -1,57 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="152e0c88-1119-4035-aa46-9f7b76524fef" name="Default Changelist" comment="daily update：2020-02-04，递归.py">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/os和时间模块/10，本章练习题.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/os和时间模块/4，递归遍历目录.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/os和时间模块/5，栈模拟递归遍历目录（深度遍历）.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/os和时间模块/6，队列模拟递归遍历目录（广度遍历）.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/os和时间模块/7，time模块.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/os和时间模块/8，datetime模块.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/os和时间模块/9，calendar模块.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/os和时间模块/newdir/aa/aa_1/kaifang.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/os和时间模块/newdir/bb/kaifang_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/os和时间模块/newdir/cc/kaifang_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/os和时间模块/newdir/kaifang.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/os和时间模块/res/126/126.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/os和时间模块/res/127/127.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/os和时间模块/res/128/128.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/os和时间模块/res/163/163.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/os和时间模块/res/164/164.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/os和时间模块/res/165/165.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/os和时间模块/res/ee/ee.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/os和时间模块/res/qq/qq.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/os和时间模块/res/ww/ww.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/os和时间模块/时间转换关系.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/模块和面向对象/1、模块概述/模块概述.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/模块和面向对象/3、使用自定义模块/1、使用自定义模块（import语句）.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/模块和面向对象/3、使用自定义模块/2、使用自定义模块（from...import语句）.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/模块和面向对象/3、使用自定义模块/3、使用自定义模块（from。。import 星 语句）.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/模块和面向对象/3、使用自定义模块/testing_import_module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/模块和面向对象/4、__name__属性/4、__name__属性.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/模块和面向对象/4、__name__属性/abcd1234.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/模块和面向对象/5、包/1、包.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/模块和面向对象/5、包/aa11/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/模块和面向对象/5、包/aa11/testing_import_packet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/模块和面向对象/6、安装第三方模块/18.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/模块和面向对象/6、安装第三方模块/1、包.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/模块和面向对象/6、安装第三方模块/temp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/面向对象思想/10、章节练习题.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/面向对象思想/1、面向对象.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/面向对象思想/2、使用类实例化对象.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/面向对象思想/3、访问对象的属性和方法.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/面向对象思想/4、对象的初始状态(构造函数).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/面向对象思想/5、详细说self.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/面向对象思想/6、析构函数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/面向对象思想/7、重写__repr__和__str__函数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/面向对象思想/8、访问限制.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/面向对象思想/类实例化对象.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/面向对象思想/继承概述.png" afterDir="false" />
+    <list default="true" id="152e0c88-1119-4035-aa46-9f7b76524fef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qianfeng_400/面向对象思想/9、单继承.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qianfeng_400/os和时间模块/1，递归.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/os和时间模块/1，递归.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qianfeng_400/os和时间模块/4，目录遍历.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +60,7 @@
       <recent name="F:\python_G\python_shell\qianfeng_400\模块和面向对象\3、使用自定义模块" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.10、章节练习题">
+  <component name="RunManager" selected="Python.9、单继承">
     <configuration name="10、章节练习题" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,27 +74,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/面向对象思想/10、章节练习题.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="5、详细说self" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_shell" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/面向对象思想" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/面向对象思想/5、详细说self.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -213,13 +145,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="9、单继承" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_shell" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/面向对象思想" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/面向对象思想/9、单继承.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.9、单继承" />
         <item itemvalue="Python.10、章节练习题" />
         <item itemvalue="Python.8、访问限制" />
         <item itemvalue="Python.7、重写__repr__和__str__函数" />
         <item itemvalue="Python.6、析构函数" />
-        <item itemvalue="Python.5、详细说self" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580821559590</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="daily update：2020-02-07">
+      <created>1581056385872</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1581056385872</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -301,6 +261,21 @@
             <State>
               <option name="COLUMN_ORDER" />
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -316,7 +291,8 @@
     <MESSAGE value="add content to os和时间模块" />
     <MESSAGE value="modify readme from pycharm updating to git-cli" />
     <MESSAGE value="daily update：2020-02-04，递归.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="daily update：2020-02-04，递归.py" />
+    <MESSAGE value="daily update：2020-02-07" />
+    <option name="LAST_COMMIT_MESSAGE" value="daily update：2020-02-07" />
   </component>
   <component name="WindowStateProjectService">
     <state x="410" y="51" key="#Custom_Plugin_Repositories" timestamp="1581055215024">
@@ -327,10 +303,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="328" y="51" key="#HTTP_Proxy/0.0.1366.728@0.0.1366.728" timestamp="1581055341819" />
-    <state x="275" y="25" key="#Notifications" timestamp="1580720664382">
+    <state x="275" y="25" key="#Notifications" timestamp="1581056502425">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="25" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1580720664382" />
+    <state x="275" y="25" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1581056502425" />
     <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580810904789">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -339,14 +315,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="409" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1580727742312" />
-    <state x="415" y="0" key="CommitChangelistDialog2" timestamp="1580971528109">
+    <state x="415" y="0" key="CommitChangelistDialog2" timestamp="1581056380478">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="415" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580971528109" />
-    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1580822514324">
+    <state x="415" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581056380478" />
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1581057845667">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1580822514324" />
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1581057845667" />
     <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1580821619885">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -355,34 +331,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="547" y="259" width="274" height="209" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1580728632490" />
-    <state width="1328" height="161" key="GridCell.Tab.0.bottom" timestamp="1581053944496">
+    <state width="1328" height="158" key="GridCell.Tab.0.bottom" timestamp="1581059377427">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1328" height="161" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581053944496" />
+    <state width="1328" height="158" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581059377427" />
     <state width="1328" height="259" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1580922997810" />
-    <state width="1328" height="161" key="GridCell.Tab.0.center" timestamp="1581053944496">
+    <state width="1328" height="158" key="GridCell.Tab.0.center" timestamp="1581059377427">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1328" height="161" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581053944496" />
+    <state width="1328" height="158" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581059377427" />
     <state width="1328" height="259" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1580922997809" />
-    <state width="1328" height="161" key="GridCell.Tab.0.left" timestamp="1581053944496">
+    <state width="1328" height="158" key="GridCell.Tab.0.left" timestamp="1581059377427">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1328" height="161" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581053944496" />
+    <state width="1328" height="158" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581059377427" />
     <state width="1328" height="259" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1580922997809" />
-    <state width="1328" height="161" key="GridCell.Tab.0.right" timestamp="1581053944496">
+    <state width="1328" height="158" key="GridCell.Tab.0.right" timestamp="1581059377427">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1328" height="161" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581053944496" />
+    <state width="1328" height="158" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581059377427" />
     <state width="1328" height="259" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1580922997810" />
     <state x="243" y="11" key="SettingsEditor" timestamp="1581056225657">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="243" y="11" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581056225657" />
-    <state x="229" y="60" key="Vcs.Push.Dialog.v2" timestamp="1580821587244">
+    <state x="229" y="60" key="Vcs.Push.Dialog.v2" timestamp="1581056737375">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="229" y="60" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1580821587244" />
+    <state x="229" y="60" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581056737375" />
     <state x="74" y="221" width="1166" height="528" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1580982209938">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -395,10 +371,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="426" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1580918135627" />
-    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580822453064">
+    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581057696807">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1580822453064" />
+    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1581057696807" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1581049842151">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
