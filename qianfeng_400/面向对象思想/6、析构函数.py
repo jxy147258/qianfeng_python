@@ -33,7 +33,7 @@ per1 = Person("zhangsan",200,170,55)
 
 def myfunc1():
     per2 = Person("lisi",20,20,20)
-    print(per1.age)
+    # print(per1.age) # 为了运行githubworkflow暂时注释
 
 myfunc1()
 
