@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="152e0c88-1119-4035-aa46-9f7b76524fef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter数据显示/2、Tree-树状数据显示.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/yes.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter数据显示/1、数据显示-tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter数据显示/1、Tree-表格数据显示-.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter数据显示/2、Tree-树状数据显示.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter数据显示/2、Tree-树状数据显示.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/self-learning/FeatureTestingPy/test_qrcode.py" beforeDir="false" afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/test_qrcode.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/qianfeng_400/模块和面向对象/6、安装第三方模块" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -61,7 +62,7 @@
       <recent name="F:\python_G\python_shell\qianfeng_400\模块和面向对象\6、安装第三方模块" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.2、Tree-树状数据显示">
+  <component name="RunManager" selected="Python.test_qrcode">
     <configuration name="1、Tree-表格数据显示-" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -146,7 +147,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_twilio_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test_qrcode" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -158,7 +159,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/self-learning/FeatureTestingPy/test_twilio_client.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/self-learning/FeatureTestingPy/test_qrcode.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_qrcode" />
         <item itemvalue="Python.2、Tree-树状数据显示" />
         <item itemvalue="Python.check_button" />
         <item itemvalue="Python.1、Tree-表格数据显示-" />
         <item itemvalue="Python.test_modules_imported" />
-        <item itemvalue="Python.test_twilio_client" />
       </list>
     </recent_temporary>
   </component>
@@ -333,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581257905686</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="#5,update something for excution of workflow">
+      <created>1581258392513</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1581258392513</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -384,7 +392,8 @@
     <MESSAGE value="#2,update something for excution of workflow" />
     <MESSAGE value="#3,update something for excution of workflow" />
     <MESSAGE value="#4,update something for excution of workflow" />
-    <option name="LAST_COMMIT_MESSAGE" value="#4,update something for excution of workflow" />
+    <MESSAGE value="#5,update something for excution of workflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="#5,update something for excution of workflow" />
   </component>
   <component name="WindowStateProjectService">
     <state x="410" y="51" key="#Custom_Plugin_Repositories" timestamp="1581055215024">
@@ -411,10 +420,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="409" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1580727742312" />
-    <state x="415" y="0" key="CommitChangelistDialog2" timestamp="1581257903447">
+    <state x="415" y="0" key="CommitChangelistDialog2" timestamp="1581258390945">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="415" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581257903447" />
+    <state x="415" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581258390945" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1581057845667">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -427,25 +436,25 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="547" y="259" width="274" height="209" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1580728632490" />
-    <state width="1345" height="169" key="GridCell.Tab.0.bottom" timestamp="1581258375275">
+    <state width="1345" height="169" key="GridCell.Tab.0.bottom" timestamp="1581258972206">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="169" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581258375275" />
+    <state width="1345" height="169" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581258972206" />
     <state width="1328" height="259" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1580922997810" />
-    <state width="1345" height="169" key="GridCell.Tab.0.center" timestamp="1581258375275">
+    <state width="1345" height="169" key="GridCell.Tab.0.center" timestamp="1581258972206">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="169" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581258375275" />
+    <state width="1345" height="169" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581258972206" />
     <state width="1328" height="259" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1580922997809" />
-    <state width="1345" height="169" key="GridCell.Tab.0.left" timestamp="1581258375275">
+    <state width="1345" height="169" key="GridCell.Tab.0.left" timestamp="1581258972205">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="169" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581258375275" />
+    <state width="1345" height="169" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581258972205" />
     <state width="1328" height="259" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1580922997809" />
-    <state width="1345" height="169" key="GridCell.Tab.0.right" timestamp="1581258375275">
+    <state width="1345" height="169" key="GridCell.Tab.0.right" timestamp="1581258972206">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="169" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581258375275" />
+    <state width="1345" height="169" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581258972206" />
     <state width="1328" height="259" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1580922997810" />
     <state width="1345" height="319" key="GridCell.Tab.1.bottom" timestamp="1581257075125">
       <screen x="0" y="0" width="1366" height="728" />
@@ -463,14 +472,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="319" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1581257075125" />
-    <state x="243" y="11" key="SettingsEditor" timestamp="1581056225657">
+    <state x="243" y="11" key="SettingsEditor" timestamp="1581259105507">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="243" y="11" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581056225657" />
-    <state x="229" y="60" key="Vcs.Push.Dialog.v2" timestamp="1581257914310">
+    <state x="243" y="11" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581259105507" />
+    <state x="229" y="60" key="Vcs.Push.Dialog.v2" timestamp="1581258396976">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="229" y="60" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581257914310" />
+    <state x="229" y="60" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581258396976" />
     <state x="74" y="221" width="1166" height="528" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1580982209938">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -483,10 +492,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="426" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1580918135627" />
-    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581258380277">
+    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581259185449">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1581258380277" />
+    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1581259185449" />
     <state x="249" y="103" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1581179967489">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

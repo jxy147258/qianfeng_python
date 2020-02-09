@@ -1,5 +1,5 @@
-import qrcode
-
-
-qr = qrcode.make("something")
-qr.save("yes.jpg")
+# import qrcode
+#
+#
+# qr = qrcode.make("something")
+# qr.save("yes.jpg")
