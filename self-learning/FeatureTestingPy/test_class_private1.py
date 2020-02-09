@@ -23,6 +23,4 @@ c = cat()
 run_twice(a)
 run_twice(d)
 run_twice(c)
-getatttr(a,'a')
-
 

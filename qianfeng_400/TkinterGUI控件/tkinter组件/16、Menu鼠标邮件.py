@@ -18,4 +18,10 @@ def printmyteacher():
 for item in ["c","c++","java",".net","asp.net","html","CSS","javascript","退出"]:
     menu1.add_command(label=item)
 
+menubar.add_cascade(label="语言",menu=menu1)
+
+def showMenu(event):
+    menubar.post(event.x_root,event.y_root)
+win.bind("<Button-3>",showMenu)
+
 win.mainloop()

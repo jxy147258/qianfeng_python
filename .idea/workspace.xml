@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="152e0c88-1119-4035-aa46-9f7b76524fef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter组件/17、Combobox下拉控件.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter组件/18、Frame框架控件.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter组件/16、Menu鼠标邮件.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter组件/16、Menu鼠标邮件.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qianfeng_400/模块和面向对象/3、使用自定义模块/2、使用自定义模块（from...import语句）.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/模块和面向对象/3、使用自定义模块/2、使用自定义模块（from...import语句）.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qianfeng_400/面向对象思想/6、析构函数.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/面向对象思想/6、析构函数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/self-learning/FeatureTestingPy/single_LinkList.py" beforeDir="false" afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/single_LinkList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/self-learning/FeatureTestingPy/test_class_private1.py" beforeDir="false" afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/test_class_private1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,29 +63,8 @@
       <recent name="F:\python_G\python_shell\qianfeng_400\模块和面向对象\6、安装第三方模块" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_class_private">
-    <configuration name="14、Spinbox控件" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_shell" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/14、Spinbox控件.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="15、Menu顶层菜单" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.18、Frame框架控件">
+    <configuration name="0、基础代码" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,7 +76,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter组件/15、Menu顶层菜单.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter组件/0、基础代码.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -106,7 +85,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3、Label标签控件" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="16、Menu鼠标邮件" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,11 +93,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter组件" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/3、Label标签控件.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter组件/16、Menu鼠标邮件.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="6、析构函数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="17、Combobox下拉控件" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,11 +114,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/面向对象思想" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter组件" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/面向对象思想/6、析构函数.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter组件/17、Combobox下拉控件.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="18、Frame框架控件" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_shell" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter组件" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter组件/18、Frame框架控件.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,15 +171,25 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.18、Frame框架控件" />
+        <item itemvalue="Python.17、Combobox下拉控件" />
+        <item itemvalue="Python.0、基础代码" />
+        <item itemvalue="Python.16、Menu鼠标邮件" />
         <item itemvalue="Python.test_class_private" />
-        <item itemvalue="Python.6、析构函数" />
-        <item itemvalue="Python.15、Menu顶层菜单" />
-        <item itemvalue="Python.14、Spinbox控件" />
-        <item itemvalue="Python.3、Label标签控件" />
       </list>
     </recent_temporary>
   </component>
   <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
     <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
@@ -305,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581238832635</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="#2,update something for excution of workflow">
+      <created>1581239308819</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1581239308819</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -353,7 +370,8 @@
     <MESSAGE value="remove requirements.txt file to .github/workflow" />
     <MESSAGE value="comment all code of ./面向对象/101、练习题2-封装类用于发短信和邮件 for excution of workflow" />
     <MESSAGE value="#1,update something for excution of workflow" />
-    <option name="LAST_COMMIT_MESSAGE" value="#1,update something for excution of workflow" />
+    <MESSAGE value="#2,update something for excution of workflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="#2,update something for excution of workflow" />
   </component>
   <component name="WindowStateProjectService">
     <state x="410" y="51" key="#Custom_Plugin_Repositories" timestamp="1581055215024">
@@ -380,10 +398,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="409" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1580727742312" />
-    <state x="415" y="0" key="CommitChangelistDialog2" timestamp="1581238830818">
+    <state x="415" y="0" key="CommitChangelistDialog2" timestamp="1581239306979">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="415" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581238830818" />
+    <state x="415" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581239306979" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1581057845667">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -396,25 +414,25 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="547" y="259" width="274" height="209" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1580728632490" />
-    <state width="1328" height="289" key="GridCell.Tab.0.bottom" timestamp="1581239268549">
+    <state width="1345" height="169" key="GridCell.Tab.0.bottom" timestamp="1581254737656">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1328" height="289" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581239268549" />
+    <state width="1345" height="169" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581254737656" />
     <state width="1328" height="259" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1580922997810" />
-    <state width="1328" height="289" key="GridCell.Tab.0.center" timestamp="1581239268548">
+    <state width="1345" height="169" key="GridCell.Tab.0.center" timestamp="1581254737656">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1328" height="289" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581239268548" />
+    <state width="1345" height="169" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581254737656" />
     <state width="1328" height="259" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1580922997809" />
-    <state width="1328" height="289" key="GridCell.Tab.0.left" timestamp="1581239268548">
+    <state width="1345" height="169" key="GridCell.Tab.0.left" timestamp="1581254737656">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1328" height="289" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581239268548" />
+    <state width="1345" height="169" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581254737656" />
     <state width="1328" height="259" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1580922997809" />
-    <state width="1328" height="289" key="GridCell.Tab.0.right" timestamp="1581239268548">
+    <state width="1345" height="169" key="GridCell.Tab.0.right" timestamp="1581254737656">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1328" height="289" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581239268548" />
+    <state width="1345" height="169" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581254737656" />
     <state width="1328" height="259" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1580922997810" />
     <state width="1345" height="319" key="GridCell.Tab.1.bottom" timestamp="1581236451258">
       <screen x="0" y="0" width="1366" height="728" />
@@ -436,10 +454,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="243" y="11" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581056225657" />
-    <state x="229" y="60" key="Vcs.Push.Dialog.v2" timestamp="1581238839815">
+    <state x="229" y="60" key="Vcs.Push.Dialog.v2" timestamp="1581239310886">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="229" y="60" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581238839815" />
+    <state x="229" y="60" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581239310886" />
     <state x="74" y="221" width="1166" height="528" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1580982209938">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
