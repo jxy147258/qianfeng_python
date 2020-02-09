@@ -3,4 +3,4 @@
 from testing_import_module import myfunc1
 
 myfunc1() # 此处是直接调用函数，区别于tim.myfunc1()
-myfunc10() #myfunc10()函数没有引入，所以执行失败
+#myfunc10() #myfunc10()函数没有引入，所以执行失败
