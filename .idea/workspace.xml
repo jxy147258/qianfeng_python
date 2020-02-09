@@ -2,10 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="152e0c88-1119-4035-aa46-9f7b76524fef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/yes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/jxy147258_itchat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/tjxy147258_md5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter数据显示/2、Tree-树状数据显示.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter数据显示/2、Tree-树状数据显示.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/self-learning/FeatureTestingPy/test_qrcode.py" beforeDir="false" afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/test_qrcode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/self-learning/FeatureTestingPy/closure.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/self-learning/FeatureTestingPy/face.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/self-learning/FeatureTestingPy/peiqi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/self-learning/FeatureTestingPy/test_class_private.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/self-learning/FeatureTestingPy/test_class_private1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/self-learning/FeatureTestingPy/test_decorator_functools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/self-learning/FeatureTestingPy/test_fork.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/self-learning/FeatureTestingPy/test_fork2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/self-learning/FeatureTestingPy/test_functools_sorted.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/self-learning/FeatureTestingPy/test_itch_itchat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/self-learning/FeatureTestingPy/test_md5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/self-learning/FeatureTestingPy/test_modules.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/self-learning/FeatureTestingPy/test_name_main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/self-learning/FeatureTestingPy/test_qrcode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/self-learning/FeatureTestingPy/test_twilio_client.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,6 +203,7 @@
         </serviceView>
       </list>
     </option>
+    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\jixiaoyun\AppData\Roaming\Subversion</configuration>
@@ -341,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581258392513</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="#6,update something for excution of workflow">
+      <created>1581259197627</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1581259197627</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -393,7 +415,8 @@
     <MESSAGE value="#3,update something for excution of workflow" />
     <MESSAGE value="#4,update something for excution of workflow" />
     <MESSAGE value="#5,update something for excution of workflow" />
-    <option name="LAST_COMMIT_MESSAGE" value="#5,update something for excution of workflow" />
+    <MESSAGE value="#6,update something for excution of workflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="#6,update something for excution of workflow" />
   </component>
   <component name="WindowStateProjectService">
     <state x="410" y="51" key="#Custom_Plugin_Repositories" timestamp="1581055215024">
@@ -420,10 +443,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="409" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1580727742312" />
-    <state x="415" y="0" key="CommitChangelistDialog2" timestamp="1581258390945">
+    <state x="415" y="0" key="CommitChangelistDialog2" timestamp="1581259195571">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="415" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581258390945" />
+    <state x="415" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581259195571" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1581057845667">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -476,10 +499,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="243" y="11" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581259105507" />
-    <state x="229" y="60" key="Vcs.Push.Dialog.v2" timestamp="1581258396976">
+    <state x="229" y="60" key="Vcs.Push.Dialog.v2" timestamp="1581259203169">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="229" y="60" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581258396976" />
+    <state x="229" y="60" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581259203169" />
     <state x="74" y="221" width="1166" height="528" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1580982209938">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -492,10 +515,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="426" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1580918135627" />
-    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581259185449">
+    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581259373381">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1581259185449" />
+    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1581259373381" />
     <state x="249" y="103" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1581179967489">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
