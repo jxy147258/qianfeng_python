@@ -28,7 +28,6 @@ hobby3 = tkinter.BooleanVar()
 checkbutton1 = tkinter.Checkbutton(win,text = "money",variable =hobby1,command = update).pack()
 checkbutton2 = tkinter.Checkbutton(win,text = "power",variable =hobby2,command = update).pack()
 checkbutton3 = tkinter.Checkbutton(win,text = "people",variable =hobby3,command = update).pack()
-
 text = tkinter.Text(win,width = 50,height = 5)
 text.pack()
 

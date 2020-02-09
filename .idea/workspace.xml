@@ -2,23 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="152e0c88-1119-4035-aa46-9f7b76524fef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/12、Listbox控件下.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/13、Scale控件.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/6、Text控件.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter组件/0、基础代码.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter组件/10、Listbox控件中.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter组件/11、Listbox控件中下.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter组件/12、Listbox控件下.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter组件/13、Scale控件.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter组件/14、Spinbox控件.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter组件/15、Menu顶层菜单.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter组件/1、简单示例.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter组件/2、点击按显示输入框中的内容.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter组件/3、Label标签控件.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter组件/4、Button控件.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter组件/5、entry 控件.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter组件/6、Text控件.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter组件/7、Checkbutton 多选框控件.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter组件/8、radiobutton 控件.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter组件/9、Listbox控件.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter组件/网上例子.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qianfeng_400/Tkinter/0、基础代码.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/0、基础代码.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qianfeng_400/Tkinter/10、Listbox控件中.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/10、Listbox控件中.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qianfeng_400/Tkinter/11、Listbox控件中下.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/11、Listbox控件中下.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qianfeng_400/Tkinter/1、简单示例.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/1、简单示例.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qianfeng_400/Tkinter/2、点击按显示输入框中的内容.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/2、点击按显示输入框中的内容.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qianfeng_400/Tkinter/3、Label标签控件.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/3、Label标签控件.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qianfeng_400/Tkinter/4、Button控件.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/4、Button控件.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qianfeng_400/Tkinter/5、entry 控件.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/5、entry 控件.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qianfeng_400/Tkinter/6、Text控件.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qianfeng_400/Tkinter/7、Checkbutton 多选框控件.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/7、Checkbutton 多选框控件.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qianfeng_400/Tkinter/8、radiobutton 控件.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/8、radiobutton 控件.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qianfeng_400/Tkinter/9、Listbox控件.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/9、Listbox控件.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qianfeng_400/Tkinter/网上例子.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/网上例子.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/0、基础代码.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/10、Listbox控件中.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/11、Listbox控件中下.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/12、Listbox控件下.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/13、Scale控件.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/1、简单示例.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/2、点击按显示输入框中的内容.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/3、Label标签控件.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/4、Button控件.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/5、entry 控件.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/6、Text控件.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/7、Checkbutton 多选框控件.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/8、radiobutton 控件.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/9、Listbox控件.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/网上例子.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,8 +91,8 @@
       <recent name="F:\python_G\python_shell\qianfeng_400\模块和面向对象\3、使用自定义模块" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.12、Listbox控件下">
-    <configuration name="10、Listbox控件中" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.15、Menu顶层菜单">
+    <configuration name="13、Scale控件" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -83,11 +100,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/Tkinter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/Tkinter/10、Listbox控件中.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/13、Scale控件.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -96,7 +113,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="11、Listbox控件中下" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="14、Spinbox控件" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,11 +121,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/Tkinter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/Tkinter/11、Listbox控件中下.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/14、Spinbox控件.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -117,7 +134,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="12、Listbox控件下" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="15、Menu顶层菜单" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -125,11 +142,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/Tkinter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter组件" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/Tkinter/12、Listbox控件下.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter组件/15、Menu顶层菜单.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,7 +155,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="8、radiobutton 控件" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="3、Label标签控件" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -146,11 +163,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/Tkinter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/Tkinter/8、radiobutton 控件.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/3、Label标签控件.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,7 +176,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="9、Listbox控件" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="7、Checkbutton 多选框控件" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -167,11 +184,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/Tkinter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/Tkinter/9、Listbox控件.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/7、Checkbutton 多选框控件.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.12、Listbox控件下" />
-        <item itemvalue="Python.11、Listbox控件中下" />
-        <item itemvalue="Python.10、Listbox控件中" />
-        <item itemvalue="Python.9、Listbox控件" />
-        <item itemvalue="Python.8、radiobutton 控件" />
+        <item itemvalue="Python.15、Menu顶层菜单" />
+        <item itemvalue="Python.14、Spinbox控件" />
+        <item itemvalue="Python.3、Label标签控件" />
+        <item itemvalue="Python.13、Scale控件" />
+        <item itemvalue="Python.7、Checkbutton 多选框控件" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581227316015</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="daily update 2020-02-09">
+      <created>1581228789131</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1581228789131</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -357,10 +381,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="409" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1580727742312" />
-    <state x="415" y="0" key="CommitChangelistDialog2" timestamp="1581227311607">
+    <state x="415" y="0" key="CommitChangelistDialog2" timestamp="1581228786468">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="415" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581227311607" />
+    <state x="415" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581228786468" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1581057845667">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -373,50 +397,50 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="547" y="259" width="274" height="209" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1580728632490" />
-    <state width="1345" height="289" key="GridCell.Tab.0.bottom" timestamp="1581228448407">
+    <state width="1328" height="289" key="GridCell.Tab.0.bottom" timestamp="1581234332143">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="289" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581228448407" />
+    <state width="1328" height="289" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581234332143" />
     <state width="1328" height="259" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1580922997810" />
-    <state width="1345" height="289" key="GridCell.Tab.0.center" timestamp="1581228448407">
+    <state width="1328" height="289" key="GridCell.Tab.0.center" timestamp="1581234332143">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="289" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581228448407" />
+    <state width="1328" height="289" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581234332143" />
     <state width="1328" height="259" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1580922997809" />
-    <state width="1345" height="289" key="GridCell.Tab.0.left" timestamp="1581228448407">
+    <state width="1328" height="289" key="GridCell.Tab.0.left" timestamp="1581234332143">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="289" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581228448407" />
+    <state width="1328" height="289" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581234332143" />
     <state width="1328" height="259" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1580922997809" />
-    <state width="1345" height="289" key="GridCell.Tab.0.right" timestamp="1581228448407">
+    <state width="1328" height="289" key="GridCell.Tab.0.right" timestamp="1581234332143">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="289" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581228448407" />
+    <state width="1328" height="289" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581234332143" />
     <state width="1328" height="259" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1580922997810" />
-    <state width="1328" height="315" key="GridCell.Tab.1.bottom" timestamp="1581220200016">
+    <state width="1345" height="319" key="GridCell.Tab.1.bottom" timestamp="1581232725716">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1328" height="315" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581220200016" />
-    <state width="1328" height="315" key="GridCell.Tab.1.center" timestamp="1581220200016">
+    <state width="1345" height="319" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581232725716" />
+    <state width="1345" height="319" key="GridCell.Tab.1.center" timestamp="1581232725716">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1328" height="315" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1581220200016" />
-    <state width="1328" height="315" key="GridCell.Tab.1.left" timestamp="1581220200016">
+    <state width="1345" height="319" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1581232725716" />
+    <state width="1345" height="319" key="GridCell.Tab.1.left" timestamp="1581232725716">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1328" height="315" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1581220200016" />
-    <state width="1328" height="315" key="GridCell.Tab.1.right" timestamp="1581220200016">
+    <state width="1345" height="319" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1581232725716" />
+    <state width="1345" height="319" key="GridCell.Tab.1.right" timestamp="1581232725716">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1328" height="315" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1581220200016" />
+    <state width="1345" height="319" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1581232725716" />
     <state x="243" y="11" key="SettingsEditor" timestamp="1581056225657">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="243" y="11" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581056225657" />
-    <state x="229" y="60" key="Vcs.Push.Dialog.v2" timestamp="1581227321903">
+    <state x="229" y="60" key="Vcs.Push.Dialog.v2" timestamp="1581228791532">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="229" y="60" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581227321903" />
+    <state x="229" y="60" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581228791532" />
     <state x="74" y="221" width="1166" height="528" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1580982209938">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -429,10 +453,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="426" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1580918135627" />
-    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581228775610">
+    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581235523503">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1581228775610" />
+    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1581235523503" />
     <state x="249" y="103" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1581179967489">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
