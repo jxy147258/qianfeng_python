@@ -1,6 +1,6 @@
 import tkinter
 from tkinter import ttk
-
+import os
 win = tkinter.Tk()
 win.title("窗口名称")
 win.geometry("400x400+200+100")
@@ -11,10 +11,12 @@ tree.pack()
 
 # 添加一级树枝
 # 空字符串的含义是本级树枝的上一级树枝为空，如果有上一级就填入上一级名称
-treeF1 = tree.insert("", 0,"中国", text="中国CHI", values="F1")
-treeF2 = tree.insert("", 1,"美国", text="美国USA", values="F2")
-treeF3 = tree.insert("", 2,"英国", text="英国BRI", values="F3")
-treeF4 = tree.insert("", 3,"波兰", text="波兰POL", values="F4")
+i = 0
+for item in os.listdir():
+    treeF1 = tree.insert("", i,item, text=item, values=item)
+    print(i)
+    i += 1
+# 如何得到treeF2，
 # # 添加二级树枝
 treeF1_1 = tree.insert(treeF1, 0, "北京", text="中国-北京", values="F1-1")
 treeF1_2 = tree.insert(treeF1, 1, "天津", text="中国-天津", values=("F1-2"))

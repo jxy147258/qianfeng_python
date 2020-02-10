@@ -2,24 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="152e0c88-1119-4035-aa46-9f7b76524fef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter布局/1、相对布局和绝对布局.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter布局/2、表格布局.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter鼠标事件/1、鼠标点击事件.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter鼠标事件/2、鼠标移动事件.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter鼠标事件/3、鼠标释放事件.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter鼠标事件/4、光标进入和离开事件.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter鼠标事件/5、键盘事件.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter鼠标事件/6、特殊按键事件.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter鼠标事件/7、指定按键事件.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter鼠标事件/8、组合按键事件.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter鼠标事件/事件属性.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter鼠标事件/事件类型.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/jxy147258__decorator_functools.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/FeatureTestingPy/jxy147258_md5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/章节联系题目/infoWindows.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/章节联系题目/treeWindows.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/章节联系题目/章节联系题-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/章节联系题目/章节联系题.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter数据显示/2、Tree-树状数据显示.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter数据显示/2、Tree-树状数据显示.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/self-learning/FeatureTestingPy/tjxy147258__decorator_functools.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/self-learning/FeatureTestingPy/tjxy147258_md5.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,22 +51,24 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/qianfeng_400/模块和面向对象/6、安装第三方模块" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\python_G\python_shell\qianfeng_400\TkinterGUI控件" />
+      <recent name="F:\python_G\python_shell\qianfeng_400\模块和面向对象\6、安装第三方模块" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\python_G\python_shell\qianfeng_400\TkinterGUI控件\章节联系题目" />
+      <recent name="F:\python_G\python_shell\qianfeng_400\TkinterGUI控件" />
       <recent name="F:\python_G\python_shell\.github\workflows" />
       <recent name="F:\python_G\python_shell\qianfeng_400\模块和面向对象" />
       <recent name="F:\python_G\python_shell\qianfeng_400\模块和面向对象\1、模块概述" />
-      <recent name="F:\python_G\python_shell\qianfeng_400\模块和面向对象\3、使用自定义模块" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\python_G\python_shell\qianfeng_400\模块和面向对象\6、安装第三方模块" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.8、组合按键事件">
-    <configuration name="4、光标进入和离开事件" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.章节联系题 (1)">
+    <configuration name="章节联系题 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,11 +76,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter鼠标事件" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/章节联系题目" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="F:\python_G\python_shell\qianfeng_400\TkinterGUI控件\tkinter鼠标事件\4、光标进入和离开事件.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/章节联系题目/章节联系题.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -98,7 +89,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="5、键盘事件" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="章节联系题-1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -106,11 +97,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter鼠标事件" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter鼠标事件/5、键盘事件.py" />
+      <option name="SCRIPT_NAME" value="F:\python_G\python_shell\qianfeng_400\TkinterGUI控件\章节联系题目\章节联系题-1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -119,7 +110,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="6、特殊按键事件" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="章节联系题" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,11 +118,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter鼠标事件" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter鼠标事件/6、特殊按键事件.py" />
+      <option name="SCRIPT_NAME" value="F:\python_G\python_shell\qianfeng_400\TkinterGUI控件\章节联系题目\章节联系题.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,7 +131,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="7、指定按键事件" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="2、Tree-树状数据显示" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -148,11 +139,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter鼠标事件" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter数据显示" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter鼠标事件/7、指定按键事件.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter数据显示/2、Tree-树状数据显示.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,7 +152,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="8、组合按键事件" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="treeWindows" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -169,11 +160,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter鼠标事件" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/章节联系题目" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter鼠标事件/8、组合按键事件.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/章节联系题目/treeWindows.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.8、组合按键事件" />
-        <item itemvalue="Python.7、指定按键事件" />
-        <item itemvalue="Python.6、特殊按键事件" />
-        <item itemvalue="Python.5、键盘事件" />
-        <item itemvalue="Python.4、光标进入和离开事件" />
+        <item itemvalue="Python.章节联系题 (1)" />
+        <item itemvalue="Python.treeWindows" />
+        <item itemvalue="Python.章节联系题-1" />
+        <item itemvalue="Python.章节联系题" />
+        <item itemvalue="Python.2、Tree-树状数据显示" />
       </list>
     </recent_temporary>
   </component>
@@ -370,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581259387895</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="daily update 2020-02-10">
+      <created>1581268141954</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1581268141954</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -424,7 +422,8 @@
     <MESSAGE value="#5,update something for excution of workflow" />
     <MESSAGE value="#6,update something for excution of workflow" />
     <MESSAGE value="#7,update something for excution of workflow" />
-    <option name="LAST_COMMIT_MESSAGE" value="#7,update something for excution of workflow" />
+    <MESSAGE value="daily update 2020-02-10" />
+    <option name="LAST_COMMIT_MESSAGE" value="daily update 2020-02-10" />
   </component>
   <component name="WindowStateProjectService">
     <state x="410" y="51" key="#Custom_Plugin_Repositories" timestamp="1581055215024">
@@ -435,10 +434,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="328" y="51" key="#HTTP_Proxy/0.0.1366.728@0.0.1366.728" timestamp="1581055341819" />
-    <state x="275" y="25" key="#Inspections" timestamp="1581150688094">
+    <state x="275" y="25" key="#Inspections" timestamp="1581324544453">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="25" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1581150688094" />
+    <state x="275" y="25" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1581324544453" />
     <state x="275" y="25" key="#Notifications" timestamp="1581056502425">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -451,10 +450,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="409" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1580727742312" />
-    <state x="415" y="0" key="CommitChangelistDialog2" timestamp="1581268094616">
+    <state x="415" y="0" key="CommitChangelistDialog2" timestamp="1581268140505">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="415" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581268094616" />
+    <state x="415" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581268140505" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1581057845667">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -467,42 +466,42 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="547" y="259" width="274" height="209" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1580728632490" />
-    <state width="1345" height="169" key="GridCell.Tab.0.bottom" timestamp="1581267967698">
+    <state width="1345" height="169" key="GridCell.Tab.0.bottom" timestamp="1581340666939">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="169" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581267967698" />
+    <state width="1345" height="169" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581340666939" />
     <state width="1328" height="259" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1580922997810" />
-    <state width="1345" height="169" key="GridCell.Tab.0.center" timestamp="1581267967697">
+    <state width="1345" height="169" key="GridCell.Tab.0.center" timestamp="1581340666939">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="169" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581267967697" />
+    <state width="1345" height="169" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581340666939" />
     <state width="1328" height="259" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1580922997809" />
-    <state width="1345" height="169" key="GridCell.Tab.0.left" timestamp="1581267967697">
+    <state width="1345" height="169" key="GridCell.Tab.0.left" timestamp="1581340666939">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="169" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581267967697" />
+    <state width="1345" height="169" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581340666939" />
     <state width="1328" height="259" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1580922997809" />
-    <state width="1345" height="169" key="GridCell.Tab.0.right" timestamp="1581267967697">
+    <state width="1345" height="169" key="GridCell.Tab.0.right" timestamp="1581340666939">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="169" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581267967697" />
+    <state width="1345" height="169" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581340666939" />
     <state width="1328" height="259" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1580922997810" />
-    <state width="1345" height="319" key="GridCell.Tab.1.bottom" timestamp="1581257075125">
+    <state width="1345" height="319" key="GridCell.Tab.1.bottom" timestamp="1581268144262">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="319" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581257075125" />
-    <state width="1345" height="319" key="GridCell.Tab.1.center" timestamp="1581257075125">
+    <state width="1345" height="319" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581268144262" />
+    <state width="1345" height="319" key="GridCell.Tab.1.center" timestamp="1581268144262">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="319" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1581257075125" />
-    <state width="1345" height="319" key="GridCell.Tab.1.left" timestamp="1581257075125">
+    <state width="1345" height="319" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1581268144262" />
+    <state width="1345" height="319" key="GridCell.Tab.1.left" timestamp="1581268144262">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="319" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1581257075125" />
-    <state width="1345" height="319" key="GridCell.Tab.1.right" timestamp="1581257075125">
+    <state width="1345" height="319" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1581268144262" />
+    <state width="1345" height="319" key="GridCell.Tab.1.right" timestamp="1581268144262">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="319" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1581257075125" />
+    <state width="1345" height="319" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1581268144262" />
     <state x="243" y="11" key="SettingsEditor" timestamp="1581259105507">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -515,18 +514,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="50" y="35" width="1166" height="528" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1581266562535" />
-    <state x="375" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1581215755570">
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1581300237400">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="375" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1581215755570" />
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1581300237400" />
     <state x="426" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1580918135627">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="426" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1580918135627" />
-    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581268097099">
+    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581340688818">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1581268097099" />
+    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1581340688818" />
     <state x="249" y="103" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1581179967489">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
