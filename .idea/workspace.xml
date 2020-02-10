@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="152e0c88-1119-4035-aa46-9f7b76524fef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/章节联系题目/infoWindows.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/章节联系题目/treeWindows.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/章节联系题目/章节联系题-1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/章节联系题目/章节联系题.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟/1、操作csv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟/aa11.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟/aa12.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟/yinyue.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟/播放音乐.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟/读写PDF（太难不学了）.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter数据显示/2、Tree-树状数据显示.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter数据显示/2、Tree-树状数据显示.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/章节联系题目/treeWindows.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/章节联系题目/treeWindows.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,11 +52,12 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\python_G\python_shell\qianfeng_400\办公自动化和键盘鼠标模拟" />
       <recent name="F:\python_G\python_shell\qianfeng_400\TkinterGUI控件" />
       <recent name="F:\python_G\python_shell\qianfeng_400\模块和面向对象\6、安装第三方模块" />
     </key>
@@ -67,7 +69,7 @@
       <recent name="F:\python_G\python_shell\qianfeng_400\模块和面向对象\1、模块概述" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.章节联系题 (1)">
+  <component name="RunManager" selected="Python.1、操作csv">
     <configuration name="章节联系题 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -131,7 +133,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2、Tree-树状数据显示" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1、操作csv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,11 +141,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter数据显示" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter数据显示/2、Tree-树状数据显示.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟/1、操作csv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1、操作csv" />
         <item itemvalue="Python.章节联系题 (1)" />
         <item itemvalue="Python.treeWindows" />
         <item itemvalue="Python.章节联系题-1" />
         <item itemvalue="Python.章节联系题" />
-        <item itemvalue="Python.2、Tree-树状数据显示" />
       </list>
     </recent_temporary>
   </component>
@@ -368,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581268141954</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="daily update 2020-02-10">
+      <created>1581340706543</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1581340706543</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -450,10 +459,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="409" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1580727742312" />
-    <state x="415" y="0" key="CommitChangelistDialog2" timestamp="1581268140505">
+    <state x="415" y="0" key="CommitChangelistDialog2" timestamp="1581340704199">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="415" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581268140505" />
+    <state x="415" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581340704199" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1581057845667">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -466,25 +475,33 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="547" y="259" width="274" height="209" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1580728632490" />
-    <state width="1345" height="169" key="GridCell.Tab.0.bottom" timestamp="1581340666939">
+    <state width="1345" height="184" key="GridCell.Tab.0.bottom" timestamp="1581348253662">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="169" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581340666939" />
+    <state width="1345" height="184" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581348253662" />
+    <state width="1899" height="643" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1581347748150" />
+    <state width="679" height="169" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581345362860" />
     <state width="1328" height="259" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1580922997810" />
-    <state width="1345" height="169" key="GridCell.Tab.0.center" timestamp="1581340666939">
+    <state width="1345" height="184" key="GridCell.Tab.0.center" timestamp="1581348253662">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="169" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581340666939" />
+    <state width="1345" height="184" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581348253662" />
+    <state width="1899" height="643" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1581347748150" />
+    <state width="679" height="169" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581345362860" />
     <state width="1328" height="259" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1580922997809" />
-    <state width="1345" height="169" key="GridCell.Tab.0.left" timestamp="1581340666939">
+    <state width="1345" height="184" key="GridCell.Tab.0.left" timestamp="1581348253662">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="169" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581340666939" />
+    <state width="1345" height="184" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581348253662" />
+    <state width="1899" height="643" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1581347748150" />
+    <state width="679" height="169" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581345362860" />
     <state width="1328" height="259" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1580922997809" />
-    <state width="1345" height="169" key="GridCell.Tab.0.right" timestamp="1581340666939">
+    <state width="1345" height="184" key="GridCell.Tab.0.right" timestamp="1581348253662">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="169" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581340666939" />
+    <state width="1345" height="184" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581348253662" />
+    <state width="1899" height="643" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1581347748150" />
+    <state width="679" height="169" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581345362860" />
     <state width="1328" height="259" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1580922997810" />
     <state width="1345" height="319" key="GridCell.Tab.1.bottom" timestamp="1581268144262">
       <screen x="0" y="0" width="1366" height="728" />
@@ -506,10 +523,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="243" y="11" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581259105507" />
-    <state x="229" y="60" key="Vcs.Push.Dialog.v2" timestamp="1581259391338">
+    <state x="229" y="60" key="Vcs.Push.Dialog.v2" timestamp="1581340714148">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="229" y="60" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581259391338" />
+    <state x="229" y="60" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581340714148" />
     <state x="50" y="35" width="1166" height="528" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1581266562535">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -522,9 +539,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="426" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1580918135627" />
-    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581340688818">
+    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581350479765">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581350479765" />
     <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1581340688818" />
     <state x="249" y="103" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1581179967489">
       <screen x="0" y="0" width="1366" height="728" />

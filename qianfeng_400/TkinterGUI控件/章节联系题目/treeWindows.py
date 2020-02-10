@@ -16,7 +16,7 @@ class TreeWindows(tkinter.Frame):
         self.tree = ttk.Treeview(frame)
         self.tree.pack()
 
-        root = self.tree.insert("", "end", text=getLastPath(path), open=True)
+        root = self.tree.insert("", "end", text=getLastPath(path), open=True,values=(path))
         self.loadTree(root,path)
         
         self.sy = tkinter.Scrollbar(frame)
@@ -32,11 +32,13 @@ class TreeWindows(tkinter.Frame):
         for sv in self.v:
             file = self.tree.item(sv)["text"]
             self.otherwin.ev.set(file)
+            apath = self.tree.item(sv)["values"][0]
+
     def loadTree(self,parent,parentPath):
         for fileName in os.listdir(parentPath):
             absPath = os.path.join(parentPath,fileName)
             # 插入树枝
-            treey = self.tree.insert(parent,'end', text=getLastPath(absPath))
+            treey = self.tree.insert(parent,'end', text=getLastPath(absPath),values = (absPath))
             # 判断是否是目录
             if os.path.isdir(absPath):
                 self.loadTree(treey,absPath)
