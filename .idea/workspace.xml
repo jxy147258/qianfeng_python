@@ -2,26 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="152e0c88-1119-4035-aa46-9f7b76524fef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter组件/代码片段.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟/2、操作word.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟/3，读取excel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟/4、写word.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟/5、win32com处理excel（xlsx、xls格式）.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟/GeoLite2-ASN-Blocks-IPv4.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟/a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟/allNames.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟/sunk.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟/sunk.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟/sunk1.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/self-learning/突发奇想/1，九九乘法口诀表.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟/6、返回整体xlsx文件.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟/aa13.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/章节联系题目/infoWindows.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/章节联系题目/infoWindows.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/章节联系题目/treeWindows.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/章节联系题目/treeWindows.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/章节联系题目/章节联系题-1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/章节联系题目/章节联系题.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/章节联系题目/章节联系题.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟/播放音乐.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟/播放音乐.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟/3，读取excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟/3，读取excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟/5、win32com处理excel（xlsx、xls格式）.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟/5、win32com处理excel（xlsx格式）.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟/GeoLite2-ASN-Blocks-IPv4.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟/GeoLite2-ASN-Blocks-IPv4.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -81,28 +67,7 @@
       <recent name="F:\python_G\python_shell\qianfeng_400\模块和面向对象\6、安装第三方模块" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.3，读取excel">
-    <configuration name="章节联系题 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_shell" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/章节联系题目" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/章节联系题目/章节联系题.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.6、返回整体xlsx文件">
     <configuration name="1，九九乘法口诀表" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -187,7 +152,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="代码片段" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="6、返回整体xlsx文件" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -195,11 +160,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter组件" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/TkinterGUI控件/tkinter组件/代码片段.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟/6、返回整体xlsx文件.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -210,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.6、返回整体xlsx文件" />
         <item itemvalue="Python.3，读取excel" />
         <item itemvalue="Python.1，九九乘法口诀表" />
         <item itemvalue="Python.4、写word" />
         <item itemvalue="Python.2、操作word" />
-        <item itemvalue="Python.章节联系题 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -423,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581438575039</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="daily update 2020-02-13">
+      <created>1581581303368</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1581581303368</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -479,7 +451,8 @@
     <MESSAGE value="#7,update something for excution of workflow" />
     <MESSAGE value="daily update 2020-02-10" />
     <MESSAGE value="daily update 2020-02-11" />
-    <option name="LAST_COMMIT_MESSAGE" value="daily update 2020-02-11" />
+    <MESSAGE value="daily update 2020-02-13" />
+    <option name="LAST_COMMIT_MESSAGE" value="daily update 2020-02-13" />
   </component>
   <component name="WindowStateProjectService">
     <state x="410" y="51" key="#Custom_Plugin_Repositories" timestamp="1581055215024">
@@ -507,6 +480,10 @@
     </state>
     <state x="409" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581519881853" />
     <state x="409" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1580727742312" />
+    <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581610280520">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581610280520" />
     <state x="415" y="0" key="CommitChangelistDialog2" timestamp="1581581277758">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -524,53 +501,58 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="547" y="259" width="274" height="209" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1580728632490" />
-    <state width="1345" height="196" key="GridCell.Tab.0.bottom" timestamp="1581565732432">
+    <state width="1345" height="161" key="GridCell.Tab.0.bottom" timestamp="1581612283147">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="196" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581565732432" />
+    <state width="1345" height="161" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581612283147" />
     <state width="1899" height="643" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1581347748150" />
     <state width="679" height="169" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581345362860" />
     <state width="1328" height="259" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1580922997810" />
-    <state width="1345" height="196" key="GridCell.Tab.0.center" timestamp="1581565732432">
+    <state width="1345" height="161" key="GridCell.Tab.0.center" timestamp="1581612283147">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="196" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581565732432" />
+    <state width="1345" height="161" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581612283147" />
     <state width="1899" height="643" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1581347748150" />
     <state width="679" height="169" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581345362860" />
     <state width="1328" height="259" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1580922997809" />
-    <state width="1345" height="196" key="GridCell.Tab.0.left" timestamp="1581565732432">
+    <state width="1345" height="161" key="GridCell.Tab.0.left" timestamp="1581612283146">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="196" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581565732432" />
+    <state width="1345" height="161" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581612283146" />
     <state width="1899" height="643" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1581347748150" />
     <state width="679" height="169" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581345362860" />
     <state width="1328" height="259" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1580922997809" />
-    <state width="1345" height="196" key="GridCell.Tab.0.right" timestamp="1581565732432">
+    <state width="1345" height="161" key="GridCell.Tab.0.right" timestamp="1581612283147">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="196" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581565732432" />
+    <state width="1345" height="161" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581612283147" />
     <state width="1899" height="643" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1581347748150" />
     <state width="679" height="169" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581345362860" />
     <state width="1328" height="259" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1580922997810" />
-    <state width="1345" height="319" key="GridCell.Tab.1.bottom" timestamp="1581268144262">
+    <state width="1345" height="319" key="GridCell.Tab.1.bottom" timestamp="1581611632037">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1345" height="319" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581611632037" />
     <state width="1345" height="319" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581268144262" />
-    <state width="1345" height="319" key="GridCell.Tab.1.center" timestamp="1581268144262">
+    <state width="1345" height="319" key="GridCell.Tab.1.center" timestamp="1581611632036">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1345" height="319" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581611632036" />
     <state width="1345" height="319" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1581268144262" />
-    <state width="1345" height="319" key="GridCell.Tab.1.left" timestamp="1581268144262">
+    <state width="1345" height="319" key="GridCell.Tab.1.left" timestamp="1581611632036">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1345" height="319" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581611632036" />
     <state width="1345" height="319" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1581268144262" />
-    <state width="1345" height="319" key="GridCell.Tab.1.right" timestamp="1581268144262">
+    <state width="1345" height="319" key="GridCell.Tab.1.right" timestamp="1581611632037">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1345" height="319" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581611632037" />
     <state width="1345" height="319" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1581268144262" />
-    <state x="243" y="11" key="SettingsEditor" timestamp="1581259105507">
+    <state x="243" y="11" key="SettingsEditor" timestamp="1581611141662">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="243" y="11" key="SettingsEditor/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581611141662" />
     <state x="243" y="11" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581259105507" />
     <state x="229" y="60" key="Vcs.Push.Dialog.v2" timestamp="1581581280996">
       <screen x="0" y="0" width="1366" height="728" />
@@ -581,20 +563,20 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="50" y="35" width="1166" height="528" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1581266562535" />
-    <state x="375" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1581557966370">
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1581589516352">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="375" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581557966370" />
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581589516352" />
     <state x="375" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1581300237400" />
     <state x="426" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581512199866">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="426" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581512199866" />
     <state x="426" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1580918135627" />
-    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581581258217">
+    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581612346987">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581581258217" />
+    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581612346987" />
     <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1581340688818" />
     <state x="249" y="103" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1581179967489">
       <screen x="0" y="0" width="1366" height="728" />
