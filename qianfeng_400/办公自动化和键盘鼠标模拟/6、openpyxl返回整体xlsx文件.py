@@ -17,7 +17,7 @@ def readXlsxFile(path):
         sheet = file[sheets[i]]
         sheetInfo = []
         for rowNum in range(1,sheet.max_row+1):
-            rowInfo = []
+            rowInfo = [] # 临时用来存放一张行数据，所以要求，一行添加完成之后就要把前一行的数据删除，不能永久保存，下载
             for columnNum in range(1,sheet.max_column+1):
                 rowInfo.append(sheet.cell(row = rowNum,column = columnNum).value)
             sheetInfo.append(rowInfo)
