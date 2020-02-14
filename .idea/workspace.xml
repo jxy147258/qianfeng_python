@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="152e0c88-1119-4035-aa46-9f7b76524fef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/py2py3和高级函数/2，map和reduce函数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/py2py3和高级函数/3，filter函数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qianfeng_400/py2py3和高级函数/文件封装成类.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟/2、win32com操作word.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟/2、win32com读取word.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟/7、读取xls和xlsx内容.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟/7、pyexcel读取xls和xlsx内容.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟/8、写入excel文件.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟/8、pyexcel写入excel文件.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianfeng_400/py2py3和高级函数/3，filter函数.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/py2py3和高级函数/3，filter函数.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +63,7 @@
       <recent name="F:\python_G\python_shell\qianfeng_400\模块和面向对象\6、安装第三方模块" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.2，map和reduce函数">
+  <component name="RunManager" selected="Python.3，filter函数">
     <configuration name="文件封装成类" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -132,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="8、pyexcel写入excel文件" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="3，filter函数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -140,11 +135,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/办公自动化和键盘鼠标模拟" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/py2py3和高级函数" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="F:\python_G\python_shell\qianfeng_400\办公自动化和键盘鼠标模拟\8、pyexcel写入excel文件.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/py2py3和高级函数/3，filter函数.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.3，filter函数" />
         <item itemvalue="Python.2，map和reduce函数" />
         <item itemvalue="Python.文件封装成类" />
         <item itemvalue="Python.2、win32com读取word" />
         <item itemvalue="Python.9、win32com写ppt" />
-        <item itemvalue="Python.8、pyexcel写入excel文件" />
       </list>
     </recent_temporary>
   </component>
@@ -410,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581672576553</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="daily update 2020-02-14">
+      <created>1581696460127</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1581696460127</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -500,10 +502,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581610280520" />
-    <state x="415" y="0" key="CommitChangelistDialog2" timestamp="1581672574179">
+    <state x="415" y="0" key="CommitChangelistDialog2" timestamp="1581696455575">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="415" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581672574179" />
+    <state x="415" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581696455575" />
     <state x="415" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581340704199" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1581057845667">
       <screen x="0" y="0" width="1366" height="728" />
@@ -517,31 +519,31 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="547" y="259" width="274" height="209" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1580728632490" />
-    <state width="672" height="202" key="GridCell.Tab.0.bottom" timestamp="1581696328274">
+    <state width="672" height="202" key="GridCell.Tab.0.bottom" timestamp="1581697140797">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="672" height="202" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581696328274" />
+    <state width="672" height="202" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581697140797" />
     <state width="1899" height="643" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1581347748150" />
     <state width="672" height="202" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581671174485" />
     <state width="1328" height="259" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1580922997810" />
-    <state width="672" height="202" key="GridCell.Tab.0.center" timestamp="1581696328273">
+    <state width="672" height="202" key="GridCell.Tab.0.center" timestamp="1581697140797">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="672" height="202" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581696328273" />
+    <state width="672" height="202" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581697140797" />
     <state width="1899" height="643" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1581347748150" />
     <state width="672" height="202" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581671174485" />
     <state width="1328" height="259" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1580922997809" />
-    <state width="672" height="202" key="GridCell.Tab.0.left" timestamp="1581696328273">
+    <state width="672" height="202" key="GridCell.Tab.0.left" timestamp="1581697140797">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="672" height="202" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581696328273" />
+    <state width="672" height="202" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581697140797" />
     <state width="1899" height="643" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1581347748150" />
     <state width="672" height="202" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581671174485" />
     <state width="1328" height="259" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1580922997809" />
-    <state width="672" height="202" key="GridCell.Tab.0.right" timestamp="1581696328273">
+    <state width="672" height="202" key="GridCell.Tab.0.right" timestamp="1581697140797">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="672" height="202" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581696328273" />
+    <state width="672" height="202" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581697140797" />
     <state width="1899" height="643" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1581347748150" />
     <state width="672" height="202" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581671174485" />
     <state width="1328" height="259" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1580922997810" />
@@ -570,10 +572,10 @@
     </state>
     <state x="243" y="11" key="SettingsEditor/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581611141662" />
     <state x="243" y="11" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581259105507" />
-    <state x="229" y="60" key="Vcs.Push.Dialog.v2" timestamp="1581672635993">
+    <state x="229" y="60" key="Vcs.Push.Dialog.v2" timestamp="1581696464652">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="229" y="60" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581672635993" />
+    <state x="229" y="60" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581696464652" />
     <state x="229" y="60" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581340714148" />
     <state x="50" y="35" width="1166" height="528" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1581266562535">
       <screen x="0" y="0" width="1366" height="728" />
@@ -589,10 +591,10 @@
     </state>
     <state x="426" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581512199866" />
     <state x="426" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1580918135627" />
-    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581696449891">
+    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581697174502">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581696449891" />
+    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581697174502" />
     <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1581340688818" />
     <state x="249" y="103" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1581179967489">
       <screen x="0" y="0" width="1366" height="728" />
