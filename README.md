@@ -8,5 +8,10 @@
 7,add something from local pc by git-cli  
 8,modifyreadme at github.com，updating 同local pc
 9,工作流，也有人叫它分支管理策略  
-10,这是第i次从linux mint 提交代码，测试。。。。  
+10,这是第i次从linux mint命令行提交代码，测试。。。。  
 11,这是第一次从server更新，然后同步到local  
+12,从pycharm更新和提交测试。  
+13,pycharm拉取代码。  
+
+
+
