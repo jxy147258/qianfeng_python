@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="152e0c88-1119-4035-aa46-9f7b76524fef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python_shell.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_shell.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/123abc.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urlopen-1.0.0-py3.8.egg-info/PKG-INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urlopen-1.0.0-py3.8.egg-info/SOURCES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urlopen-1.0.0-py3.8.egg-info/dependency_links.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urlopen-1.0.0-py3.8.egg-info/installed-files.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urlopen-1.0.0-py3.8.egg-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/urlopen.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/Activate.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/activate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/activate.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/deactivate.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/python.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/python_d.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pythonw.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pythonw_d.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +70,7 @@
       <recent name="F:\python_G\python_shell\qianfeng_400\模块和面向对象\6、安装第三方模块" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.4，详解正则表达式-深入">
+  <component name="RunManager" selected="Python.4，设置超时">
     <configuration name="2，re模块简介" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,6 +134,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="4，设置超时" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_shell" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/爬虫" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/爬虫/4，设置超时.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="8，破解密码" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -175,31 +176,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctests in 7、文档测试" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
-      <module name="python_shell" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/py2py3和高级函数" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/py2py3和高级函数/7、文档测试.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.4，设置超时" />
         <item itemvalue="Python.4，详解正则表达式-深入" />
         <item itemvalue="Python.3,详解正则表达式" />
         <item itemvalue="Python.2，re模块简介" />
         <item itemvalue="Python.8，破解密码" />
-        <item itemvalue="Python tests.Doctests in 7、文档测试" />
       </list>
     </recent_temporary>
   </component>
@@ -450,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581783243638</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="daily update 2020-02-22">
+      <created>1582351277644</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1582351277644</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -483,7 +473,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="from pycharm commuity edition 20190621" />
     <MESSAGE value="from pycharm commuity edition 20200203" />
     <MESSAGE value="from pycharm commuity edition 20200203170200" />
     <MESSAGE value="根据视频，整理目录，视频和目录一一对应" />
@@ -508,7 +497,8 @@
     <MESSAGE value="daily update 2020-02-13" />
     <MESSAGE value="daily update 2020-02-14" />
     <MESSAGE value="daily update 2020-02-15" />
-    <option name="LAST_COMMIT_MESSAGE" value="daily update 2020-02-15" />
+    <MESSAGE value="daily update 2020-02-22" />
+    <option name="LAST_COMMIT_MESSAGE" value="daily update 2020-02-22" />
   </component>
   <component name="WindowStateProjectService">
     <state x="410" y="51" key="#Custom_Plugin_Repositories" timestamp="1581055215024">
@@ -565,11 +555,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="408" y="217" key="#com.intellij.tools.ToolEditorDialog/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581735725608" />
-    <state x="415" y="0" key="CommitChangelistDialog2" timestamp="1581783240409">
+    <state x="415" y="0" width="690" height="726" key="CommitChangelistDialog2" timestamp="1582351277490">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="415" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581783240409" />
-    <state x="415" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581340704199" />
+    <state x="415" y="0" width="690" height="726" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582351277490" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1581057845667">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -643,11 +633,11 @@
     </state>
     <state x="195" y="13" key="SettingsEditor/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581736252771" />
     <state x="273" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582350926328" />
-    <state x="229" y="60" key="Vcs.Push.Dialog.v2" timestamp="1581783256865">
+    <state x="229" y="60" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1582351283508">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="229" y="60" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581783256865" />
-    <state x="229" y="60" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581340714148" />
+    <state x="229" y="60" width="800" height="526" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1582351283508" />
     <state x="50" y="35" width="1166" height="528" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582350856769">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
