@@ -82,8 +82,42 @@ print(jsonstr2)
 print(type(jsonstr2))
 
 # 读取本地json文件
-jsonpath = r"/home/jixy/PycharmProjects/qianfeng_python-master/qianfeng_400/爬虫/myjsontest.json"
+jsonpath = r"/home/jixy2/pycharm_projects/qianfeng_python-master/qianfeng_400/爬虫/myjsontest.json"
 with open(jsonpath,"rb") as f:
     data = json.load(f)
     print(data)
     print(type(data))
+
+# 写入json文件
+jsonstr3 = {
+"code": 0,
+"msg": "",
+"count": 2,
+"data": [
+{
+"id": "154 工单",
+"username": "Doe",
+"city":"13585486456",
+"sign": "center",
+"classify": "aa",
+"experience": "aa",
+"score": "aa",
+"wealth": "aa"
+}, 
+{
+"id": "154",
+"username": "oe",
+"city": "13585456",
+"sign": "ceter",
+"classify": "a",
+"experience": "a",
+"score": "a",
+"wealth": "a"
+}
+]
+}
+jsonpath1 = r"/home/jixy2/pycharm_projects/qianfeng_python-master/qianfeng_400/爬虫/myjsontest1.json"
+with open(jsonpath1,"w") as f:
+    data1 = json.dump(jsonstr3,f)
+    #1, 区别于dumps（）函数，dumps是只有一个参数，dump（）是两个参数
+    #2,dump函数的传入的参数是字典

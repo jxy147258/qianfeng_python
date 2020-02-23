@@ -13,7 +13,7 @@ OPTIONS：可以获取当前URL所支持的请求类型
 # GET方法示例
 import  urllib.request
 
-url1 = r"http://localhost:8080/"
+url1 = r"http://ilovejiali:8080/"
 
 respond1 = urllib.request.urlopen(url1)
 data = respond1.read().decode("utf-8")
