@@ -1,0 +1,28 @@
+{
+"code": 0,
+"msg": "",
+"count": 2,
+"data": [
+{
+"id": "154 工单",
+"username": "Doe",
+"city":"13585486456",
+"sign": "center",
+"classify": "aa",
+"experience": "aa",
+"score": "aa",
+"wealth": "aa"
+},
+{
+"id": "154",
+"username": "oe",
+"city": "13585456",
+"sign": "ceter",
+"classify": "a",
+"experience": "a",
+"score": "a",
+"wealth": "a"
+}
+]
+}
+
