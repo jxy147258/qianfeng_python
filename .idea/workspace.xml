@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="152e0c88-1119-4035-aa46-9f7b76524fef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/qianfeng_400/爬虫/0,headers内容" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qianfeng_400/爬虫/10,中关村笑话爬虫.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qianfeng_400/爬虫/11,验证re语句有没有错.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qianfeng_400/爬虫/12,一号店爬虫.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qianfeng_400/爬虫/aa44.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qianfeng_400/爬虫/8,ajax网络请求.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/爬虫/8,ajax网络请求.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qianfeng_400/爬虫/9,汽车之家爬虫.py" beforeDir="false" afterPath="$PROJECT_DIR$/qianfeng_400/爬虫/9,汽车之家爬虫.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +58,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/qianfeng_400/爬虫" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -64,6 +70,12 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/qianfeng_400/爬虫" />
+      <recent name="F:\python_G\python_shell\qianfeng_400\办公自动化和键盘鼠标模拟" />
+      <recent name="F:\python_G\python_shell\qianfeng_400\TkinterGUI控件" />
+      <recent name="F:\python_G\python_shell\qianfeng_400\模块和面向对象\6、安装第三方模块" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\python_G\python_shell\qianfeng_400\TkinterGUI控件\章节联系题目" />
       <recent name="F:\python_G\python_shell\qianfeng_400\TkinterGUI控件" />
@@ -71,14 +83,9 @@
       <recent name="F:\python_G\python_shell\qianfeng_400\模块和面向对象" />
       <recent name="F:\python_G\python_shell\qianfeng_400\模块和面向对象\1、模块概述" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\python_G\python_shell\qianfeng_400\办公自动化和键盘鼠标模拟" />
-      <recent name="F:\python_G\python_shell\qianfeng_400\TkinterGUI控件" />
-      <recent name="F:\python_G\python_shell\qianfeng_400\模块和面向对象\6、安装第三方模块" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.8,ajax网络请求">
-    <configuration name="1，urllib.request函数获取网页内容" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.12,一号店爬虫">
+    <configuration name="10,中关村笑话爬虫" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -90,7 +97,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/爬虫/1，urllib.request函数获取网页内容.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/爬虫/10,中关村笑话爬虫.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -99,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4，设置超时" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="11,验证re语句有没有错" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -111,7 +118,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/爬虫/4，设置超时.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/爬虫/11,验证re语句有没有错.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -120,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="5,http请求" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="12,一号店爬虫" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_shell" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,28 +139,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/爬虫/5,http请求.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="6,json数据解析" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_shell" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/爬虫" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/爬虫/6,json数据解析.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/爬虫/12,一号店爬虫.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,13 +169,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="9,汽车之家爬虫" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_shell" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qianfeng_400/爬虫" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qianfeng_400/爬虫/9,汽车之家爬虫.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.12,一号店爬虫" />
+        <item itemvalue="Python.10,中关村笑话爬虫" />
+        <item itemvalue="Python.11,验证re语句有没有错" />
+        <item itemvalue="Python.9,汽车之家爬虫" />
         <item itemvalue="Python.8,ajax网络请求" />
-        <item itemvalue="Python.5,http请求" />
-        <item itemvalue="Python.6,json数据解析" />
-        <item itemvalue="Python.1，urllib.request函数获取网页内容" />
-        <item itemvalue="Python.4，设置超时" />
       </list>
     </recent_temporary>
   </component>
@@ -468,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582473541848</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="daily update 2020-02-24#1">
+      <created>1582479624231</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1582479624231</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -501,7 +515,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add content to os和时间模块" />
     <MESSAGE value="modify readme from pycharm updating to git-cli" />
     <MESSAGE value="daily update：2020-02-04，递归.py" />
     <MESSAGE value="daily update：2020-02-07" />
@@ -526,7 +539,8 @@
     <MESSAGE value="daily update 2020-02-22#2" />
     <MESSAGE value="daily update 2020-02-23#1" />
     <MESSAGE value="daily update 2020-02-23#2" />
-    <option name="LAST_COMMIT_MESSAGE" value="daily update 2020-02-23#2" />
+    <MESSAGE value="daily update 2020-02-24#1" />
+    <option name="LAST_COMMIT_MESSAGE" value="daily update 2020-02-24#1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="410" y="51" key="#Custom_Plugin_Repositories" timestamp="1581055215024">
@@ -553,6 +567,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="398" y="18" key="#Twisted_Trial_for_6，对类进行单元测试.Test.test_init/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581735606518" />
+    <state x="203" y="27" width="800" height="676" key="#Web_Browsers" timestamp="1582553946877">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="203" y="27" width="800" height="676" key="#Web_Browsers/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1582553946877" />
     <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581735818210">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -566,10 +584,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="200" y="70" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581755703141" />
-    <state x="409" y="172" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581519881853">
+    <state x="409" y="172" width="564" height="393" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582642282215">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="409" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581519881853" />
+    <state x="409" y="172" width="564" height="393" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1582642282215" />
     <state x="409" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1580727742312" />
     <state x="412" y="152" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1581735543963">
       <screen x="0" y="0" width="1366" height="728" />
@@ -583,18 +601,19 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="408" y="217" key="#com.intellij.tools.ToolEditorDialog/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581735725608" />
-    <state x="415" y="0" width="690" height="726" key="CommitChangelistDialog2" timestamp="1582473541638">
+    <state x="415" y="0" width="690" height="726" key="CommitChangelistDialog2" timestamp="1582479624093">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="415" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581783240409" />
-    <state x="415" y="0" width="690" height="726" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582473541638" />
+    <state x="415" y="0" width="690" height="726" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582479624093" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1581057845667">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1581057845667" />
-    <state x="394" y="82" width="424" height="482" key="FileChooserDialogImpl" timestamp="1582350449138">
+    <state x="394" y="82" width="424" height="483" key="FileChooserDialogImpl" timestamp="1582553887260">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="394" y="82" width="424" height="483" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1582553887260" />
     <state x="394" y="82" width="424" height="482" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582350449138" />
     <state x="500" y="286" key="Github.CreateGistDialog" timestamp="1582350497889">
       <screen x="0" y="0" width="1366" height="728" />
@@ -604,36 +623,36 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="547" y="259" width="274" height="209" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1580728632490" />
-    <state width="773" height="229" key="GridCell.Tab.0.bottom" timestamp="1582475741718">
+    <state width="1342" height="202" key="GridCell.Tab.0.bottom" timestamp="1582642993519">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="994" height="210" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581844467965" />
+    <state width="1342" height="202" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1582642993519" />
     <state width="1899" height="643" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1581347748150" />
-    <state width="773" height="229" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582475741718" />
+    <state width="773" height="229" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582479652439" />
     <state width="1328" height="259" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1580922997810" />
     <state width="673" height="227" key="GridCell.Tab.0.bottom/0.0.3286.728@0.0.3286.728" timestamp="1582364534806" />
-    <state width="773" height="229" key="GridCell.Tab.0.center" timestamp="1582475741718">
+    <state width="1342" height="202" key="GridCell.Tab.0.center" timestamp="1582642993518">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="994" height="210" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581844467965" />
+    <state width="1342" height="202" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1582642993518" />
     <state width="1899" height="643" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1581347748150" />
-    <state width="773" height="229" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582475741718" />
+    <state width="773" height="229" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582479652438" />
     <state width="1328" height="259" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1580922997809" />
     <state width="673" height="227" key="GridCell.Tab.0.center/0.0.3286.728@0.0.3286.728" timestamp="1582364534805" />
-    <state width="773" height="229" key="GridCell.Tab.0.left" timestamp="1582475741718">
+    <state width="1342" height="202" key="GridCell.Tab.0.left" timestamp="1582642993518">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="994" height="210" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581844467965" />
+    <state width="1342" height="202" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1582642993518" />
     <state width="1899" height="643" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1581347748150" />
-    <state width="773" height="229" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582475741718" />
+    <state width="773" height="229" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582479652437" />
     <state width="1328" height="259" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1580922997809" />
     <state width="673" height="227" key="GridCell.Tab.0.left/0.0.3286.728@0.0.3286.728" timestamp="1582364534805" />
-    <state width="773" height="229" key="GridCell.Tab.0.right" timestamp="1582475741718">
+    <state width="1342" height="202" key="GridCell.Tab.0.right" timestamp="1582642993519">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="994" height="210" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581844467965" />
+    <state width="1342" height="202" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1582642993519" />
     <state width="1899" height="643" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1581347748150" />
-    <state width="773" height="229" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582475741718" />
+    <state width="773" height="229" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582479652438" />
     <state width="1328" height="259" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1580922997810" />
     <state width="673" height="227" key="GridCell.Tab.0.right/0.0.3286.728@0.0.3286.728" timestamp="1582364534805" />
     <state width="1345" height="319" key="GridCell.Tab.1.bottom" timestamp="1581612446499">
@@ -665,11 +684,11 @@
     </state>
     <state x="195" y="13" key="SettingsEditor/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581736252771" />
     <state x="273" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582428754597" />
-    <state x="229" y="60" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1582473559610">
+    <state x="229" y="60" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1582479631449">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="229" y="60" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581783256865" />
-    <state x="229" y="60" width="800" height="526" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1582473559610" />
+    <state x="229" y="60" width="800" height="526" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1582479631449" />
     <state x="50" y="35" width="1166" height="528" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582350856769">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -684,10 +703,10 @@
     </state>
     <state x="422" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581760519326" />
     <state x="426" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1580918135627" />
-    <state x="477" y="282" width="420" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582473519561">
+    <state x="477" y="282" width="428" height="162" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582649095967">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1581845734064" />
+    <state x="477" y="282" width="428" height="162" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1582649095967" />
     <state x="477" y="282" width="420" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1582473519561" />
     <state x="249" y="103" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1581179967489">
       <screen x="0" y="0" width="1366" height="728" />
@@ -705,6 +724,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="507" y="223" key="git4idea.ui.GitTagDialog/0.0.1366.728@0.0.1366.728" timestamp="1581061943387" />
+    <state x="278" y="24" width="800" height="676" key="scopes" timestamp="1582617136963">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="278" y="24" width="800" height="676" key="scopes/0.0.1366.728/1366.0.1920.1080@0.0.1366.728" timestamp="1582617136963" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1581517899925">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -717,20 +740,5 @@
         <watch expression="message" />
       </configuration>
     </watches-manager>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

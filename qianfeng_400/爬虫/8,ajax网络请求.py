@@ -13,7 +13,7 @@ def Crawler(url):
     response = urllib.request.urlopen(req, context=context)
     #
     jsonStr = response.read().decode("utf-8")
-    # jsonData = json.loads(jsonStr)
+    jsonData = json.loads(jsonStr)
     return jsonStr
 
 
