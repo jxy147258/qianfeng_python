@@ -10,3 +10,5 @@ while True:
     # 接受服务器的消息
     info = UDPClient.recv(1024).decode("utf-8")
     print("服务器说：",info)
+    if data == None:
+        break

@@ -3,7 +3,7 @@ import socket
 
 UDPServer = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
 
-UDPServer.bind(("localhost",8082))
+UDPServer.bind(("localhost", 8082))
 print("服务器启动成功。。。")
 while True:
     data,address = UDPServer.recvfrom(1024)
