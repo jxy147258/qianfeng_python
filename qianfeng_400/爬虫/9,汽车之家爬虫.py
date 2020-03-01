@@ -13,7 +13,7 @@ def motoHome(url):
 
     jsonStr = response.read().decode("utf-8",errors="ignore")
     # jsonData = json.loads(jsonStr)
-    with open(r"/home/jixy2/pycharm_projects/qianfeng_python-master/qianfeng_400/爬虫/aa22.html","w") as f:
+    with open(r"/qianfeng_400/爬虫/aa22.html", "w") as f:
         f.write(jsonStr)
 
 
