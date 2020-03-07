@@ -9,7 +9,7 @@ cursor = conn.cursor()
 
 
 # sql语句
-sql1 = '''INSERT INTO runoob_tbl VALUES ('$runoob_title','$runoob_author','$submission_date')'''
+sql1 = '''INSERT INTO runoob_tbl VALUES (70,'iam','iahia','2019-02-05'),(30,'iamyou','jiji','2020-02-10'),(77,'heisyou','hjjj','2020-01-05')'''
 
 try:
     cursor.execute(sql1)
