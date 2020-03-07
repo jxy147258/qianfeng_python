@@ -2,7 +2,7 @@
 import re
 import os
 import urllib.request
-
+import time
 
 def getHTML(url):
     headers = {
@@ -21,8 +21,8 @@ def getHTML_1(url):
     htmlInfo = resp.read()
     return htmlInfo
 # 分离链接url的re语句
-count = 1000
-for k in range(70,80):
+count = 4500
+for k in range(44,50):
     rootSite = r"http://xxee11.com/htm/Picture1/"+str(k)+".htm"
     rootInfo = getHTML(rootSite)
     siteUrl_re =re.compile(r"<a href=\"(.*?)\" title")
@@ -40,6 +40,7 @@ for k in range(70,80):
         for n in jpgUrl:
             print(n)
             jpgtopath = getHTML_1(n)
+            time.sleep(0.1)
             toPath = r"/media/jixy2/528589bc-ea5a-4464-961c-8465fdc30e80/Python文档/学习之名"
             absPath = os.path.join(toPath, str(count)+".jpg")
             count += 1
