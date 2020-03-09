@@ -1,0 +1,87 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>第一个测试页面</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+  <p>This is my world !</p>
+  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+  <!--
+  <script>
+    document.write("hello world")
+    alert("hello world2")
+    console.log("hello world1")
+    var a = 10;
+    console.log(a.toString())
+    console.log(typeof(a.toString()))
+    var b = "20"
+    console.log(a+b)
+    var a = prompt("请输入数字")
+    b = parseInt(a)
+    console.log(b)
+    console.log(0 ? 2 : 3)
+    var arr = ["a","b","c","d"]
+    for(var i in arr){
+      console.log("第"+i+"个元素是："+arr[i])
+    }
+    function func(num1,num2){
+      return num2+num1
+    }
+    console.log(func(1,2))
+var f = func
+console.log(f(2,2))
+  </script>
+-->
+  <script>
+    var arr1 = new Array(10,20,30)
+for(var i = 0;i <3;i++){
+  console.log("arr1:"+arr1[i])
+}
+var arr3 = new Array("a","b",111)
+    console.log("arr3: "+arr3)
+
+var arr2 = []
+    console.log("arr2 :"+arr2)
+for(var i =0;i<4;i++){
+  arr2[i] = i+100
+  }
+  console.log("arr2  :"+arr2)
+
+
+
+  </script>
+
+
+</body>
+
+</html>

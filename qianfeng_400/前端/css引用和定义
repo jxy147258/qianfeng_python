@@ -13,6 +13,4 @@ color:red;
 
 行内样式
 <p style="color:blue">sunk is a good man</p>
-
-
 '''
