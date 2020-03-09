@@ -1,0 +1,58 @@
+'''
+1,<button>按钮</button>
+2,输入内容
+<script type="text/javascript">
+document.write("hahahah") # 向页面输出
+document.log("冀晓云坚强") # 向控制台输出
+alert("sunck is a good mang")
+
+</script>
+3,数据类型
+var a;
+a = 10;
+console.log(a)
+如果a = "string aa a a "也是可以的
+可以用typeof(a)查看a的数据类型
+也可以用a.toString()专程字符串
+特殊数字：
+js最大可以表示的是1e308,超过此值的显示为Infinity
+不是数字但是属于数据类型的显示为NAN，Infinity-Infinity就等于NAN
+
+字符串相加就是拼接，数字和字符串相加就是把数字转换成字符串再拼接
+
+类型转换
+var a = "123"
+var b = parseInt(a) # 字符串转数字
+如果a = "12+3" ,那么b的就如果就是12
+
+接受用户输入
+var a = prompt("请输入数字")
+b = parseInt(a)
+console.log(b)
+
+
+三目运算
+表达式 ？ 表达式1 ： 表达式2
+功能：表达式为真，则整体的值为表达式1,表达式为假，整体为表达式2
+
+
+定义函数
+function 函数名（参数列表）{
+    语句
+    return 表达式
+}
+
+全局变量在函数里可以用，而且可以修改，但是函数内变量不能在全局使用,特殊情况，没有被<var>声明的变量可以在全局使用
+
+变量提升
+函数内没有先调用后定义的变量不会报错，因为变量提升功能会把函数内所有变量的定义提升到函数的最开始
+function func(){
+    console.log(num) # 第一次输出是undefined
+    var num = 10
+    console.log(num) #  第二次输出是10
+}
+
+数组
+var arr1 = new Array(5) # 只有一个数字表示数组长度，如果是多个数字表示的是元素内容
+
+'''

@@ -1,0 +1,18 @@
+'''
+内部样式
+<style type="text/css">
+<p>{
+color:red;
+}
+</p>
+</style>
+下文中所有被<p>包围的内容，都是红色,如果是li那就是所有的li都是红色
+
+外部样式
+<link rel="stylesheet",type="text/css" href = "css/style.css">
+
+行内样式
+<p style="color:blue">sunk is a good man</p>
+
+
+'''
