@@ -56,4 +56,18 @@ function func(){
 1,构造函数：new，传入参数可以是数组长度，也可以是实际元素
 var arr1 = new Array(5) # 如果只有一个数字表示“建议的”数组长度，如果有多个表示实际元素，实际传入元素数量可以大于数组定义长度
 2,字面量方式，var arr2 = []
+
+时间类型
+var d1 = Date()
+
+
+BOM简介
+BOM（Browser Object Model），通过一个全局windows对象调用
+console.log(window.document)
+console.log(window.frames)
+console.log(window.navigator)
+console.log(window.screen)
+console.log(window.history)
+
+
 '''

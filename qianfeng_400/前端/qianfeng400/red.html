@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>RED</title>
+	</head>
+
+	<body style="height:1000px;background-color:red;">
+		
+	<button onclick="func()">to yellow</button>
+	<button onclick="func1()">to back</button>
+	<button onclick="func2()">to forward</button>
+	<script type="text/javascript">
+		function func(){
+			window.location.assign("yellow.html")
+		}
+		function func1(){
+			window.history.back()
+		}
+		function func2(){
+			window.history.forward()
+		}
+	</script>>
+	</body>
+</html>

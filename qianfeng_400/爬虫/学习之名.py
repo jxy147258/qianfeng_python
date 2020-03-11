@@ -23,7 +23,7 @@ def getHTML_1(url):
 # 分离链接url的re语句
 count = 4500
 for k in range(44,50):
-    rootSite = r"http://xxee11.com/htm/Picture1/"+str(k)+".htm"
+    rootSite = r"http://xxee11.com/htm/Picture8/"+str(k)+".htm"
     rootInfo = getHTML(rootSite)
     siteUrl_re =re.compile(r"<a href=\"(.*?)\" title")
     jpgUrlList = siteUrl_re.findall(rootInfo)
@@ -41,7 +41,7 @@ for k in range(44,50):
             print(n)
             jpgtopath = getHTML_1(n)
             time.sleep(0.1)
-            toPath = r"/media/jixy2/528589bc-ea5a-4464-961c-8465fdc30e80/Python文档/学习之名"
+            toPath = r"/media/jixy2/528589bc-ea5a-4464-961c-8465fdc30e80/Python文档/123"
             absPath = os.path.join(toPath, str(count)+".jpg")
             count += 1
             with open(absPath,"wb") as f:
