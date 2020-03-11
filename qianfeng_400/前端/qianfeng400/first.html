@@ -3,10 +3,116 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>第一个页面</title>
-		<script type="text/javascript" src="js/test.js"></script>>
+		<script type="text/javascript" src="js/test.js"></script>
 	</head>
 
-	<body>
-	<button onclick="func()"> 跳转到红色页面 </button>
-	</body>
+	<body style ="height :3000px;">
+	<!--
+	<button onclick="func()"> 停止 </button>
+	<button onclick="func1()"> 再启动 </button>
+	-->
+
+	<!--
+	<script type="text/javascript">
+		/* 以下语句等页面所有内容加载完成，才会执行 */
+		window.onscroll = function(){
+			console.log("发生了滚动")
+			var a = document.documentElement.scrollTop  || document.body.scrollTop
+			console.log(a)
+			/* 可用于动态加载页面，做法是，当滚动了500行，1000行，1500行时，以此类推记载新页面*/
+			if (a ==500*i) {
+				/* 加载新页面 */
+			}
+		}
+		window.onresize = function(){
+		w = document.documentElement.clientWidth || document.body.clientWidth || window.innerWidth
+		h = document.documentElement.clientHeight || document.body.clientHeight || window.innerheight
+		console.log(w,h)
+	}
+	/* 创建一个定时器 */
+	var time 
+	time = window.setInterval(function(){
+		console.log("sunck is a good man !")
+	},2000)
+	function func(){
+		window.clearInterval(time)
+	}
+	function func1(){
+		time = window.setInterval(function(){
+		console.log("sunck is a good man !")
+	},2000)
+	}
+	/* 延迟3秒，就执行一次 */
+	var time2 = window.setTimeout(function() {console.log("sunck is a nice man")}, 3000);
+	</script>
+	-->
+	<div id ="idDiv"></div>
+	<div class="classDiv"></div>
+	<div class="classDiv"></div>
+	<div class="classDiv"></div>
+	<div class="classDiv"></div>
+	<div class="classDiv"></div>
+
+	<input type="texet" name="inputText">
+	<input type="texet" name="inputText">
+	<input type="texet" name="inputText">
+	<input type="text" id ="in" placeholder="请留下你的大名" my = "我的" name="hahaas">
+	<button onclick="func11()">按钮</button>
+	<!--
+	<script type="text/javascript">
+		/* 根据id拿div */
+		var jsDiv = document.getElementById("idDiv")
+		console.log(jsDiv)
+		console.log(typeof(jsDiv))
+
+		/* 根据className拿div */
+		var jsDivs = document.getElementsByClassName("classDiv")
+		console.log(jsDivs)
+		console.log(typeof(jsDivs))
+
+		/* 根据name拿div */
+		var jsInps = document.getElementsByName("inputText")
+		console.log(jsInps)
+		console.log(typeof(jsInps))
+
+		/* 拿所有div */
+		var jsallDivs = document.getElementsByTagName("div")
+		console.log(jsallDivs)
+		console.log(typeof(jsallDivs))
+		</script>
+	
+	<script type="text/javascript">
+		var jsInput = document.getElementById("in")
+		/* 对于官方定义的属性可以直接用点 . 来获取 */
+		console.log(jsInput.name)
+		
+		/* 对于自定义属性的获取用getAttribute("属性名") */
+		function func(){
+			/* 对于自定义属性的设置用getAttribute("属性名"),有则修改，没有则增加属性*/
+			jsInput.setAttribute("my","sunck is a good man") 
+			console.log(jsInput.getAttribute("my"))
+			console.log(jsInput)
+		/* 删除属性，用removeAttribute()*/
+		jsInput.removeAttribute('my')
+		console.log(jsInput)
+		/* setAttribute("属性名"),有则修改，没有则增加属性 */
+		jsInput.setAttribute("my123","456")
+		console.log(jsInput)
+		/* 获取输入框中的内容 */
+		console.log(jsInput.value)
+		}
+		-->
+		<div id = "box">
+			我是盒子
+		</div>
+<script type="text/javascript">
+var jsDiv = document.getElementById("box")
+/* innerHTML是从开始标签到结束标签之间所有的内容，包含换行和空格，不包含标签本身 */
+console.log(jsDiv.innerHTML) 
+
+
+	</script>
+
+
+</body>
 </html>

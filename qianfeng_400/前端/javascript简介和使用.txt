@@ -62,7 +62,7 @@ var d1 = Date()
 
 
 BOM简介
-BOM（Browser Object Model），通过一个全局windows对象调用
+BOM（Browser Object Model）浏览器对象模型，通过一个全局windows对象调用
 console.log(window.document)
 console.log(window.frames)
 console.log(window.navigator)
@@ -70,4 +70,50 @@ console.log(window.screen)
 console.log(window.history)
 
 
+window相关的方法
+1,页面加载完成时执行
+window.onload = function(){
+  /* js语句 */
+}
+2,页面发生滚动时执行
+window.onscroll = function(){
+    /* js语句*/
+}
+3,页面改变大小时执行
+window.resize = function(){}
+4,延迟一段时间再执行，就执行一次
+window.timeout(function(){},2000)
+5,间隔一定时间，多次执行
+window.setInterval(function(){console.log("sunck is a good man !")},2000)
+
+
+DOM（document object model）文档对象模型，实际就是window对象中的document
+1,DOM分类
+core DOM，核心DOM，针对任何结构化文档的标准模型
+XML DOM，针对XML文档的标准模型
+HTML DOM，针对HTML文档的标准模型
+2,DOM节点分类
+    1,文档节点，
+    2,标签节点，元素节点
+    3,（标签）属性节点
+    4,文本节点
+    5,注视节点
+3,js和页面标签进行交互
+    1,获取标签（元素）节点
+        获取方法一，只能获取光房定义的属性
+        a)根据id拿div document.getElementById("idDiv")
+        b)根据className拿div document.getElementsByClassName("classDiv")
+        c)根据name拿div  document.getElementsByName("inputText")
+        d)拿所有div document.getElementsByTagName("div")
+        获取标签的官方属性值：元素节点.属性值 console.log(jsInput.name)，还可以修改属性值
+        获取方法二：
+        元素节点.getAttribute("属性名")，此方法支持获取官方和自定义的两种属性。
+         设置元素节点属性值：元素节点.setAttribute("属性名","新值")
+
+        修改标签CS样式
+        修改标签属性
+    2,创建标签
+    3,删除标签
+    4,复制标签
+    5,插入标签
 '''
