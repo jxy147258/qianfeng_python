@@ -6,34 +6,72 @@
 	</head>
 	<body style ="height :300px;position: relative;">
 
+<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+<!--
+<div id = "box1"><p>我是第一个P</p><p>我是第二个P</p><p>我是第三个P</p><p>我是第四个P</p></div>
 
-<style type="text/css">
-/* style在标签外定义 */
- #box1{
-  width:100px;
-  height:100px;
-  background-color:red;
-  position:absolute;
-   left: 0px;
-   top: 0px;
- }
-</style>
-<div id="box1" ></div>
-<button onclick="changecolor2()" style="position: absolute;left: 200px;top: 200px">自动dong位置</button>
-<script type="text/javascript">
- var jsDiv = document.getElementById("box1")
- var Bheight = window.ge
- function changecolor2(){
-      setInterval(function () {
-        var a = parseInt(window.getComputedStyle(jsDiv,null).left)
-        var b = parseInt(window.getComputedStyle(jsDiv,null).top)
-      jsDiv.style.left = a + 100 + "px"
-        console.log(jsDiv.style.left)
-      jsDiv.style.top = b +100 + "px"
-        console.log(jsDiv.style.top)
-      },100)
- }
-</script>
+<div id = "box2"></div><div id = "box3"></div><input id="put" type="text" name="in" placeholder="sunck is good man!">
 
-</body>
+  <script>
+    var jsdiv1 = document.getElementById("box1")
+    /* 获取标签节点的共有属性，三大共有属性 */
+    console.log(jsdiv1.nodeName,jsdiv1.nodeType,jsdiv1.nodeValue)
+    var jsdiv2 = document.getElementById("box2")
+    var jsdiv3 = document.getElementById("box3")
+    var jsdiv4 = document.getElementById("put")
+
+    /* 以下都是节点层级关系属性,例如根据父节点找到子节点， */
+    /* 获取所有子节点 */
+    console.log(jsdiv1.childNodes)
+    /* 如果4个P写到4行里去，输出结果是9个，因为在前一个P的</p>和下一个P的<p>之间是有一个text的
+
+    /* 获取第一个节点  */
+    console.log(jsdiv1.firstChild)
+    /* 获取最后一个节点  */
+    console.log(jsdiv1.lastChild)
+    /* 获取根节点  */
+    console.log(jsdiv1.ownerDocument)
+    /* 获取父节点，用于父节点没有id，没有class等唯一标识的时候用jsdiv1.firstchild.parentNode表示父节点  */
+    console.log(jsdiv1.firstChild.parentNode);
+    /* 获取同一级的前一个节点，注意div3 和div2之间不能有换行和空格  */
+    console.log(jsdiv3.previousSibling)
+    /* 获取同一级的后一个节点，注意div3 和input之间不能有换行和空格  */
+    console.log(jsdiv3.nextSibling)
+    /* 获取当前节点的所有属性节点  */
+    console.log(jsdiv4.attributes)
+    /* 获取当前节点的某一个属性节点  */
+    console.log(jsdiv4.attributes[2])
+  </script>
+  -->
+  <div id="box1"><p>1</p><p>2</p></div>
+<button onclick="appendInput()">插入input</button>
+  <script>
+    var boxDiv = document.getElementById("box1")
+    /* 创建P节点，并附加属性 */
+    var a = document.createElement("p")
+    a.innerHTML = "sunck is a good man"
+    a.style.backgroundColor = "red"
+    console.log(a)
+    /* 创建input节点 */
+    var i = document.createElement("input")
+    i.textContent = "text"
+    console.log(i)
+    /* 在指定位置插入 */
+    boxDiv.insertBefore(i,boxDiv.lastChild)
+    /* 插入到box中,默认是插入到最后 */
+    function appendInput(){
+    boxDiv.appendChild(a)
+      }
+    /* 创建一个文本节点并添加到页面 */
+    var textbox = document.createTextNode("什么")
+    boxDiv.appendChild(textbox)
+    /* 用新创建的P节点替换原来的第二个P节点 */
+    boxDiv.replaceChild(textbox,boxDiv.lastChild)
+
+
+
+  </script>
+
+
+  </body>
 </html>

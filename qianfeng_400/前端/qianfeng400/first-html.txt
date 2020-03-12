@@ -135,3 +135,32 @@ jsDiv.style["width"] = "200px"
     console.log(c1)
 	}
 </script>
+
+
+<style type="text/css">
+/* style在标签外定义 */
+ #box1{
+  width:100px;
+  height:100px;
+  background-color:red;
+  position:absolute;
+   left: 0px;
+   top: 0px;
+ }
+</style>
+<div id="box1" ></div>
+<button onclick="changecolor2()" style="position: absolute;left: 200px;top: 200px">自动dong位置</button>
+<script type="text/javascript">
+ var jsDiv = document.getElementById("box1")
+ var Bheight = window.ge
+ function changecolor2(){
+      setInterval(function () {
+        var a = parseInt(window.getComputedStyle(jsDiv,null).left)
+        var b = parseInt(window.getComputedStyle(jsDiv,null).top)
+      jsDiv.style.left = a + 100 + "px"
+        console.log(jsDiv.style.left)
+      jsDiv.style.top = b +100 + "px"
+        console.log(jsDiv.style.top)
+      },100)
+ }
+</script>

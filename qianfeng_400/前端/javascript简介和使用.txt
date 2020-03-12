@@ -111,12 +111,64 @@ HTML DOM，针对HTML文档的标准模型
          设置元素节点属性值：元素节点.setAttribute("属性名","新值")
 
         修改标签CS样式
-        jsDiv.style.XXX，可以拿出宽高颜色等属性
+        var w = jsDiv.style.height或者var h = jsDiv.style.width，可以拿出宽高颜色等属性
         修改标签属性
         jsDiv.style.XXX="新值",或者jsDiv.style["height"] = "新值",
         对于外部CSS文件
 
+        节点三大共有属性，nodeName,nodeType,nodeValue
+        /* 获取标签节点的共有属性，三大共有属性 */
+        var jsdiv1 = document.getElementById("box1")
+        console.log(jsdiv1.nodeName,jsdiv1.nodeType,jsdiv1.nodeValue)
+        var jsdiv2 = document.getElementById("box2")
+        var jsdiv3 = document.getElementById("box3")
+        var jsdiv4 = document.getElementById("put")
+
+        /* 以下都是节点层级关系属性,例如根据父节点找到子节点， */
+        /* 获取所有子节点 */
+        console.log(jsdiv1.childNodes)
+        /* 如果4个P写到4行里去，输出结果是9个，因为在前一个P的</p>和下一个P的<p>之间是有一个text的
+
+        /* 获取第一个节点  */
+        console.log(jsdiv1.firstChild)
+        /* 获取最后一个节点  */
+        console.log(jsdiv1.lastChild)
+        /* 获取根节点  */
+        console.log(jsdiv1.ownerDocument)
+        /* 获取父节点，用于父节点没有id，没有class等唯一标识的时候用jsdiv1.firstchild.parentNode表示父节点  */
+        console.log(jsdiv1.firstChild.parentNode);
+        /* 获取同一级的前一个节点，注意div3 和div2之间不能有换行和空格  */
+        console.log(jsdiv3.previousSibling)
+        /* 获取同一级的后一个节点，注意div3 和input之间不能有换行和空格  */
+        console.log(jsdiv3.nextSibling)
+        /* 获取当前节点的所有属性节点  */
+        console.log(jsdiv4.attributes)
+        /* 获取当前节点的某一个属性节点  */
+        console.log(jsdiv4.attributes[2])
+
     2,创建标签
+     <div id="box1"><p>1</p><p>2</p></div>
+     <button onclick="appendInput()">插入input</button>
+     <script>
+    var boxDiv = document.getElementById("box1")
+    /* 创建P节点 */
+    var a = document.createElement("p")
+    a.innerHTML = "sunck is a good man"
+    a.style.backgroundColor = "red"
+    console.log(a)
+    /* 创建input节点 */
+    var i = document.createElement("input")
+    i.textContent = "text"
+    console.log(i)
+    /* 在指定位置插入 */
+    boxDiv.insertBefore(i,boxDiv.lastChild)
+    /* 插入到box中,默认是插入到最后 */
+    function appendInput(){
+    boxDiv.appendChild(a)
+      }
+    /* 创建一个文本节点并添加到页面 */
+    var textbox = document.createTextNode("什么")
+    boxDiv.appendChild(textbox)
     3,删除标签
     4,复制标签
     5,插入标签
