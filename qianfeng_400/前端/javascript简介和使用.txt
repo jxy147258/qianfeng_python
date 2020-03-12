@@ -2,18 +2,18 @@
 1,<button>按钮</button>
 2,输入内容
 <script type="text/javascript">
-document.write("hahahah") # 向页面输出
+document.write("hahaha") # 向页面输出
 document.log("冀晓云坚强") # 向控制台输出
-alert("sunck is a good mang")
-
+alert("sunck is a good man")
 </script>
+
 3,数据类型
 var a;
 a = 10;
 console.log(a)
 如果a = "string aa a a "也是可以的
 可以用typeof(a)查看a的数据类型
-也可以用a.toString()专程字符串
+也可以用a.toString()转成字符串
 特殊数字：
 js最大可以表示的是1e308,超过此值的显示为Infinity
 不是数字但是属于数据类型的显示为NAN，Infinity-Infinity就等于NAN
@@ -45,7 +45,7 @@ function 函数名（参数列表）{
 全局变量在函数里可以用，而且可以修改，但是函数内变量不能在全局使用,特殊情况，没有被<var>声明的变量可以在全局使用
 
 变量提升
-函数内没有先调用后定义的变量不会报错，因为变量提升功能会把函数内所有变量的定义提升到函数的最开始
+函数内的变量先调用后定义不会报错，因为变量提升功能会把函数内所有变量的[定义]提升到函数的最开始
 function func(){
     console.log(num) # 第一次输出是undefined
     var num = 10
@@ -111,9 +111,16 @@ HTML DOM，针对HTML文档的标准模型
          设置元素节点属性值：元素节点.setAttribute("属性名","新值")
 
         修改标签CS样式
+        jsDiv.style.XXX，可以拿出宽高颜色等属性
         修改标签属性
+        jsDiv.style.XXX="新值",或者jsDiv.style["height"] = "新值",
+        对于外部CSS文件
+
     2,创建标签
     3,删除标签
     4,复制标签
     5,插入标签
+
+
+
 '''
