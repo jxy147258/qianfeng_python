@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件处理</title>
+  <link rel="stylesheet" href="css/mystyle.css">
+</head>
+<body style="height: 3000px;">
+<div id="box1">
+  <div id="box2">
+    <div id="box3">
+      <div id="box4">
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!--
+<script type="text/javascript">
+  function func() {
+    alert('sunck is a nice man!')
+  }
+  var div3 = document.getElementById("box3")
+  div3.onclick = function () {
+alert(" handsome man")
+  }
+  /* 之前的函数会被覆盖 */
+   div3.onclick = function () {
+alert(" handsome man----1")
+  }
+  /* 清除函数 */
+//   div3.onclick = null
+
+   var div4 = document.getElementById("box4")
+  function f(){
+    alert(" handsome man")
+  }
+  div4.addEventListener("click",f,false)
+  /* 之前的函数不会被覆盖 */
+  div4.addEventListener("click",f,false)
+  /* 清除函数 */
+//  div4.removeEventListener("click",f,false)
+
+  function func(self) {
+  console.log(self)
+    self.style.backgroundColor = "black"
+    alert("nice man")
+  }
+</script>
+<input type="text" id="in" value="">
+  /* 聚焦、离焦事件 */
+  var input = document.getElementById("in")
+  input.addEventListener("focus",function () {
+console.log("聚焦事件")
+  })
+   input.addEventListener("blur",function () {
+     console.log("离开焦点事件")
+   })
+  /* 单击、双击事件 */
+  var div4 = document.getElementById("box4")
+  var timer
+  div4.addEventListener("click",function () {
+    clearTimeout(timer)
+    timer = setTimeout(function () {
+    console.log("单击")
+    },300)
+  },false)
+
+  div4.addEventListener("dblclick",function () {
+    clearTimeout(timer)
+    console.log("双击")
+  },false)
+
+
+<ul>
+  <li>鼠标进入变红</li>
+  <li>鼠标离开变蓝</li>
+  <li>鼠标按下字体大2倍</li>
+  <li>鼠标抬起字体小2倍</li>
+</ul>
+
+<script>
+  var li = document.getElementsByTagName("li")
+  for(var i =0;i<li.length;i++){
+
+    li[i].addEventListener("mouseover",function () {
+  this.style.backgroundColor = "red"
+    })
+    li[i].addEventListener("mouseout",function () {
+  this.style.backgroundColor = "blue"
+    })
+      li[i].addEventListener("mousedown",function () {
+  this.style.fontSize = parseInt(getComputedStyle(this,null).fontSize)*2+"px"
+    })
+      li[i].addEventListener("mouseup",function () {
+  this.style.fontSize = parseInt(getComputedStyle(this,null).fontSize)/2+"px"
+    })
+  /* 给整个文档加鼠标移动事件 */
+    document.addEventListener("mousemove",function () {
+console.log("鼠标移动了")
+    })
+  }
+  /* 键盘对象 */
+    document.addEventListener("keydown",function (e) {
+  var event = e || window.event
+      console.log(event)
+      console.log(event.altKey,event.ctrlKey,event.shiftKey,event.key,event.keyCode)
+ })
+      document.addEventListener("keyup",function (e) {
+  var event = e || window.event
+      console.log(event)
+      console.log("-----------------------")
+ })
+  /* 鼠标对象 */
+    document.addEventListener("click",function (e) {
+  var eve = e || window.event
+      console.log(eve.clientX,eve.clientY,eve.pageX,eve.pageY)
+      // console.log()
+ })
+ </script>
+-->
+
+<style>
+
+</style>
+
+
+</body>
+</html>

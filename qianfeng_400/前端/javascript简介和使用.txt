@@ -117,7 +117,7 @@ HTML DOM，针对HTML文档的标准模型
         对于外部CSS文件
 
         节点三大共有属性，nodeName,nodeType,nodeValue
-        /* 获取标签节点的共有属性，三大共有属性 */
+        /* 获取标签节点的共有属性，三大共有属性，可以根据nodeType的值来区分是哪种类型节点 */
         var jsdiv1 = document.getElementById("box1")
         console.log(jsdiv1.nodeName,jsdiv1.nodeType,jsdiv1.nodeValue)
         var jsdiv2 = document.getElementById("box2")
@@ -170,9 +170,23 @@ HTML DOM，针对HTML文档的标准模型
     var textbox = document.createTextNode("什么")
     boxDiv.appendChild(textbox)
     3,删除标签
+    父节点.removeChild(子节点)
+
     4,复制标签
+    var newdiv = jsdiv.cloneNode(true) # 如果没有true，只会复制父节点，
+    console.log(newdiv)
+
     5,插入标签
+    var textbox = document.createTextNode("什么")
+    boxDiv.appendChild(textbox)
 
-
-
+    四种添加事件的方法
+    1,直接在div中写函数
+    <div id="box1" onclick="alert('sunck is a good man!')"></div>
+    2,在标签中调用函数，script中定义函数
+    <div id="box2" onclick="func(this)"></div>
+    3,在script中添加函数
+    div3.onclick = function () {}
+    4,在script中调用函数，其中click是时间类型，func1是函数名
+    div4.addEventListener("click",func1,false)
 '''

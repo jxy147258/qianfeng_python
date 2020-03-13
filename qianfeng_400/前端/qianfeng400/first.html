@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<title>第一个页面</title>
 	</head>
-	<body style ="height :300px;position: relative;">
+	<body style ="height :3000px;position: relative;">
 
 <link rel="stylesheet" type="text/css" href="css/mystyle.css">
 <!--
@@ -42,7 +42,7 @@
     /* 获取当前节点的某一个属性节点  */
     console.log(jsdiv4.attributes[2])
   </script>
-  -->
+
   <div id="box1"><p>1</p><p>2</p></div>
 <button onclick="appendInput()">插入input</button>
   <script>
@@ -64,13 +64,36 @@
       }
     /* 创建一个文本节点并添加到页面 */
     var textbox = document.createTextNode("什么")
-    boxDiv.appendChild(textbox)
+    /* boxDiv.appendChild(textbox) */
     /* 用新创建的P节点替换原来的第二个P节点 */
     boxDiv.replaceChild(textbox,boxDiv.lastChild)
+    /* 删除子节点 */
+    boxDiv.removeChild(boxDiv.firstChild)
+   </script>
+  -->
+
+<div id="box" style="height: 500px;width: 500px;position: relative;border: solid 1px red;">
+<div id="ball" style="height: 50px;width: 50px;position: absolute;border-radius: 25px;background-color: yellow;left: 0;top: 0;"</div>
+</div>
 
 
 
-  </script>
+<script>
+  var ball = document.getElementById("ball")
+  var speedx = 7
+  var speedy = 9
+  setInterval(function () {
+    ball.style.left = ball.offsetLeft+speedx + "px"
+    ball.style.top = ball.offsetTop + speedy + "px"
+    if (ball.offsetLeft>=500-50 || ball.offsetLeft <=0){
+       speedx *= -1
+    }
+
+    if (ball.offsetTop>=500-50 || ball.offsetTop <=0){
+      speedy *= -1
+    }},20)
+
+</script>
 
 
   </body>
