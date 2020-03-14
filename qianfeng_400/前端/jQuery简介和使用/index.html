@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>第一个测试页面</title>
+
+  <script src="js/jquery-3.4.1.min.js" type="text/javascript"></script>
+  <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+</head>
+
+<body>
+<div id="box1"></div>
+
+
+
+<script type="text/javascript">
+  /* 1,简单使用 */
+  $(document).ready(function () {
+    alert("all work well")
+  })
+  window.onload = function(){
+    alert("second things")
+  }
+  alert("first things")
+   /* 2,设置style */
+  /* 这是原来DOM对象的写法 */
+  var jsdiv = document.getElementById("box1")
+  console.log(jsdiv)
+  /* 这是jQuery对象的写法 */
+  var $jqdiv = $("#box1").html("sunck is a good man")
+
+
+  /* 两种对象互相转换jQuery-->DOM */
+  var jsdiv1 = $jqdiv[0]
+  console.log($jqdiv)
+  console.log(jsdiv1)/* 现在jsdiv1就是一个div标签了*/
+  /* jQuery--->DOM另一种转换方式*/
+  var jsdiv2 = $jqdiv.get(0)
+  console.log(jsdiv2)
+
+   /* 两种对象互相转换DOM-->jQuery */
+  var $jqdiv1 = $(jsdiv1)
+  console.log($jqdiv1)
+
+
+</script>
+
+
+</body>
+
+</html>

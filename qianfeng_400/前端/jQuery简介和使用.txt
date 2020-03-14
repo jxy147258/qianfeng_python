@@ -1,1 +1,12 @@
 jQuery语法格式：$(selector).methodName();
+
+
+1,$(document).ready(function(){alert("this is not a drill")}),等同于windown.onload = function(){},可以写多个，
+两者不冲突，可以同时存在，ready效率比onload更高
+
+2,基本选择器类型
+    ID选择器
+    元素选择器
+    类名选择器
+    复合选择器
+    通配符选择器
