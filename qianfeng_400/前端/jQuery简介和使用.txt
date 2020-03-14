@@ -1,0 +1,1 @@
+jQuery语法格式：$(selector).methodName();

@@ -190,7 +190,25 @@ HTML DOM，针对HTML文档的标准模型
     4,在script中调用函数，其中click是事件类型，func1是函数名
     div4.addEventListener("click",func1,false)
 
+    事件流：
+    true-->捕获阶段执行,也就是最外层先执行
+    false-->冒泡阶段执行，最里面层先执行
+    
+    捕获阶段-->|-->|-->[ ]-->|-->|-->冒泡阶段
 
+    截断冒泡行为:evt.stopPropagation()
+    document.getElementById("a").onclick = function (e) {
+    var evt = e || window.event
+    evt.stopPropagation()
+
+    阻止默认行为：evt.preventDefault()
+    var info = window.confirm("是否确认访问")
+    if(info == false){
+    evt.preventDefault()
+
+    综合例子思路：
+    1,一个div，大小和图片像素一样，然后包含8个<li>,两个方向箭头
+    2,
 
 
 '''

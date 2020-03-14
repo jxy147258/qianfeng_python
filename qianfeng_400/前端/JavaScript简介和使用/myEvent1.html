@@ -5,7 +5,9 @@
     <title>事件处理</title>
   <link rel="stylesheet" href="css/mystyle.css">
 </head>
-<body style="height: 3000px;">
+<body style="height: 3000px;position: relative;">
+
+<!--
 <div id="box1">
   <div id="box2">
     <div id="box3">
@@ -16,10 +18,9 @@
   </div>
 </div>
 
+<input id="in" placeholder="未点击输入框"><br>
+<a id="a" href="red.html">点击链接</a>
 
-
-
-<!--
 <script type="text/javascript">
   function func() {
     alert('sunck is a nice man!')
@@ -32,7 +33,7 @@ alert(" handsome man")
    div3.onclick = function () {
 alert(" handsome man----1")
   }
-  /* 清除函数 */
+  /* 清除函数,两种方法，第一 */
 //   div3.onclick = null
 
    var div4 = document.getElementById("box4")
@@ -42,7 +43,7 @@ alert(" handsome man----1")
   div4.addEventListener("click",f,false)
   /* 之前的函数不会被覆盖 */
   div4.addEventListener("click",f,false)
-  /* 清除函数 */
+  /* 清除函数,两种方法，第二 */
 //  div4.removeEventListener("click",f,false)
 
   function func(self) {
@@ -56,10 +57,10 @@ alert(" handsome man----1")
   var input = document.getElementById("in")
   input.addEventListener("focus",function () {
 console.log("聚焦事件")
-  })
+  },false)
    input.addEventListener("blur",function () {
      console.log("离开焦点事件")
-   })
+   },false)
   /* 单击、双击事件 */
   var div4 = document.getElementById("box4")
   var timer
@@ -102,7 +103,7 @@ console.log("聚焦事件")
   /* 给整个文档加鼠标移动事件 */
     document.addEventListener("mousemove",function () {
 console.log("鼠标移动了")
-    })
+    },false)
   }
   /* 键盘对象 */
     document.addEventListener("keydown",function (e) {
@@ -122,12 +123,87 @@ console.log("鼠标移动了")
       // console.log()
  })
  </script>
+
+ <script>
+  var div1 = document.getElementById("box1")
+      var div2 = document.getElementById("box2")
+      var div3 = document.getElementById("box3")
+      var div4 = document.getElementById("box4")
+    div1.addEventListener("click",function () {
+console.log(div1)
+    },false)
+    div1.addEventListener("click",function () {
+console.log(div2)
+    },false)
+    div1.addEventListener("click",function () {
+console.log(div3)
+    },false)
+    div1.addEventListener("click",function () {
+console.log(div4)
+    },false)
+
+  document.body.onclick = function () {
+this.style.backgroundColor = "yellow"
+  }
+
+  document.getElementById("box4").onclick = function (e) {
+this.style.backgroundColor = "red"
+    var evt = e || window.event
+     evt.stopPropagation()
+  }
+  document.getElementById("in").onclick = function (e) {
+    this.setAttribute("placeholder","点击了输入框")
+var evt = e || window.event
+    evt.stopPropagation()
+  }
+  document.getElementById("a").onclick = function (e) {
+    var evt = e || window.event
+    evt.stopPropagation()
+    var info = window.confirm("是否确认访问")
+    if(info == false){
+      evt.preventDefault()
+      }
+    }
+</script>
+
 -->
 
-<style>
+<div id="box1" style="position: absolute;"></div>
+<script>
+    jsDiv = document.getElementById("box1")
+    basex = 0
+    basey = 0
+    movex = 0
+    movey = 0
+    jsDiv.addEventListener("mousedown",function (e) {
+    var evt = e || window.event
+    /* pageX,pageY是鼠标的位置 */
+    basex = evt.pageX
+    basey = evt.pageY
+    console.log(basex,basey)
+    console.log("鼠标落下")
 
-</style>
+    document.onmousemove = function (e) {
+      var ee = e || window.event
+      movex = ee.pageX - basex
+      basex = ee.pageX
 
+      movey = ee.pageY - basey
+      basey = ee.pageY
+      console.log(basex,basey)
+      jsDiv.style.left = jsDiv.offsetLeft + movex + "px"
+      jsDiv.style.top = jsDiv.offsetTop + movey + "px"
+      console.log(jsDiv.style.left,jsDiv.style.top)
+    }
+  },false)
+
+  /* 抬起鼠标后，不再移动 */
+  document.addEventListener("mouseup",function () {
+    console.log("鼠标抬起")
+    document.onmousemove = null
+
+  },false)
+</script>
 
 </body>
 </html>
