@@ -187,6 +187,10 @@ HTML DOM，针对HTML文档的标准模型
     <div id="box2" onclick="func(this)"></div>
     3,在script中添加函数
     div3.onclick = function () {}
-    4,在script中调用函数，其中click是时间类型，func1是函数名
+    4,在script中调用函数，其中click是事件类型，func1是函数名
     div4.addEventListener("click",func1,false)
+
+
+
+
 '''

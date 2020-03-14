@@ -12,6 +12,10 @@
 11,这是第一次从server更新，然后同步到local  
 12,从pycharm更新和提交测试。  
 13,pycharm拉取代码。  
+14,删除远程文件，并且保留本地文件  
+    git rm --cached  -r venv  
+    git commit -m "remove venv"  
+    git push      
 
 
 
