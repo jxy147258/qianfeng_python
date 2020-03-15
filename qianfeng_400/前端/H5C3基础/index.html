@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>H5C3</title>
+    <script src="jquery-3.4.1.js" type="text/javascript"></script>
+    <style type="text/css">
+        mark{
+            background-color: burlywood;
+        }
+    </style>
+</head>
+<body>
+<!--<datalist>和input一起使用-->
+<input type="text" list="option123" placeholder="请选择"/>
+<datalist id="option123">
+    <option>good</option>
+    <option>nice</option>
+    <option>handsome</option>
+    <option>great</option>
+</datalist>
+
+<!-- <details> -->
+<details>
+    <summary>sunck</summary>
+    <p>sunck is a good man</p>
+</details>
+
+<!--mark加强语气-->
+<p>i am a <mark>good</mark> man</p>
+
+<!--进度条,script中添加了一个匿名函数，用于自动增加-->
+<progress id="pro" max="100" value="0"></progress>
+
+<form>
+    <input type="range" max="100" min="0" step="10" value="10"/>
+    <input type="date"/>
+    <input type="submit" />
+    <input type="email" />
+    <input type="url" >
+</form>
+
+
+<script>
+    var num = 0
+    setInterval(function () {
+    $("#pro").val(num+"")
+        num++
+    },100)
+</script>
+</body>
+</html>

@@ -5,8 +5,79 @@ jQuery语法格式：$(selector).methodName();
 两者不冲突，可以同时存在，ready效率比onload更高
 
 2,基本选择器类型
-    ID选择器
-    元素选择器
-    类名选择器
-    复合选择器
-    通配符选择器
+    ID选择器,获取id为box1的元素，$("#box1")，相当于document.getElementById("box1")
+    元素选择器,获取类型为div的元素，$("div"),相当于document.getElementByTagName("div")
+    类名选择器,获取class名为class的元素，$(".class")
+    复合选择器,$("div,#box")
+    通配符选择器,$("*")
+
+3,层次选择器
+    ancestor descendant选择器，祖先和后代元素，例如$("ul li")选择ul下所有的li
+    parent>child选择器，获取父节点parent下所有直接子节点，例如$("form>iput")选择表单中所有的子元素iput
+    prev+next选择器，获取prev元素后的next元素，例如$("div+img")选择div后的img
+    prev~siblings选择器，选择prev元素之后的所有siblings，同级元素
+
+4,简单过滤器
+    ：first，配合基本选择器和层次选择器使用，例如$(".pp:first")选择所有class为pp的元素中的第一个
+    ：last，同上
+    ：even，同上
+    ：odd，同上
+    ：eq(index),选择等于给定值的元素，例如$(".pp:eq(4)"),计数从0开始，eq(4)是选择第五个
+    ：gt(index),同上，不包含index
+    ：lt(index)，同上，不包含index
+    ：header，匹配h1,h2等标题元素，例如$(":header")选择所有标题元素
+    ：not(selector),不包含selector的元素，例如$("input:not(：checked)"),所有input中没有被checked，$("p:not(.pp)")
+    :animated,正在执行动画的元素
+
+    内容过滤器：
+    :contains("aaaaa"),内容包含“aaaaa”
+    :empty,选择内容为空或者没有子标签的
+    :parent,选择内容不为空或者有子标签的
+    :has(),选择包含某种类型标签的标签，例如，$("input:has(p)")，选择那些包含了p标签的input
+
+    可见性过滤器：
+    ：visible
+    ：hidden，两种隐藏方法，type="hidden",style = "display:none;"
+     补充：input的value就是文本框中的内容，
+
+    表单对象的属性过滤器：
+    :checked
+    :disabled
+    :enabled
+    :selected，
+
+    子元素过滤器：
+    :first-child,匹配给定元素中子元素的第一个，例如$("ul li:first-child"),ul下第一个li
+    :last-child,匹配给定元素中子元素的最后一个，例如$("ul li:last-child"),ul下最后一个li
+    :only-child,匹配给定元素中唯一子元素，例如$("ul li:only-child"),ul下唯一一个li
+    :nth-child(index/even/odd/equation),匹配每个父元素下第index个子元素、奇数元素、偶数元素，index从1开始计数
+        例如$("ul li:nth-child(3)"),选择ul下第3元素，$("ul li:nth-child(even)")选择ul下索引值为偶数的li元素
+
+    属性选择器：
+    [attribute],
+        例如：$("input[name]"),有name属性的input,
+             $("input[name='input3']"),有name属性，且name=input3，
+             $("input[name!='input3']"),有name属性，且name!=input3，
+             $("input[name*='input3']"),有name属性，且模糊匹配input3的
+             $("input[name^='input3']"),有name属性，且以input3开头的
+             $("input[name$='input3']"),有name属性，且以input3结尾的
+             $("div[id][name^='test']"),匹配具有id且name属性以test开头的所有div
+
+
+    表单属性
+    :input $(":input")匹配form下的input，写成$(form :input)也是一样的
+    :button,$(":button")匹配所有button，写成$("form :button")就是匹配form下的button
+
+
+
+    绑定事件，
+    .bind("click","func()")
+    .css
+
+    创建标签
+    var $ppp = $("<p>kkkkkkk</p>")
+
+5,jQuery 方法
+    .html("aaaaa"),相当于innerHTML，不传参是获取，传参是设置
+    .addClass,添加类，例如$(".app:even").addClass("aap"),aap是事先定义好的css
+    .removeClass，移除class

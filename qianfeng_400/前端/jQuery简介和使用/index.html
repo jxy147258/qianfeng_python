@@ -10,8 +10,11 @@
 </head>
 
 <body>
-<div id="box1"></div>
-
+1jiji@live.cn
+<div id="box1" class="ap"></div>
+<div id="box2" class="ap"></div>
+<p>1qaz2wsx3edc</p>
+<input id="in" name="input1" value="sunck is a good man !">
 
 
 <script type="text/javascript">
@@ -28,7 +31,8 @@
   var jsdiv = document.getElementById("box1")
   console.log(jsdiv)
   /* 这是jQuery对象的写法 */
-  var $jqdiv = $("#box1").html("sunck is a good man")
+  // var $jqdiv = $("#box1").html("sunck is a good man")
+  var $jqdiv = $("#box1")
 
 
   /* 两种对象互相转换jQuery-->DOM */
@@ -42,6 +46,33 @@
    /* 两种对象互相转换DOM-->jQuery */
   var $jqdiv1 = $(jsdiv1)
   console.log($jqdiv1)
+
+  /* 获取到所有的div，对div的设置就是对所有div的设置 */
+  var jqdivs = $("div")
+  jqdivs.html("12345")
+
+  var jqdiv2 = $(".ap")
+  console.log(jqdiv2)
+  console.log(jqdiv2===jqdivs)
+
+  /* 同时选择两种元素*/
+  var com = $(".ap,p")
+  console.log(com)
+
+    /* 同时选择两种元素*/
+  var com1 = $("*")
+  console.log(com1)
+
+  var conp = $("p:contains('2ws')")
+  console.log("conp:",conp)
+
+  var $in1 = $("input:visible")
+  /* 没有参数就是获取，有参数就是设置 */
+  console.log($in1.val("qqqqqqqqq"))
+  console.log($in1.val())
+
+  var $input1 = $("input[name]")
+  console.log("input1:",$input1)
 
 
 </script>
