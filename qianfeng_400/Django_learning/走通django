@@ -1,0 +1,102 @@
+创建项目：
+	1,在合适位置创建目录
+	2,进入目录
+	3,django-admin startproject "projectName"
+	4,目录层级说明：
+		manager.py：一个命令行工具 ，可以使我们用多种方式对Django项目进行交互
+		project目录：
+			__init__.py:告诉Python解释器这是一个python包
+			setting.py:项目配置文件
+			urls.py:项目的URL声明
+			wsgi.py:项目与WSGI兼容的web服务器入口
+
+
+基本操作：
+	设计表结构：
+		班级表结构：
+			表名，grades
+			字段，
+				班级名称：gname
+				成立时间：gdate
+				女生总数：ggirlnum
+				男生总数：gboynum
+				是否删除：isDelete
+		学生表:
+			表名：students
+			字段：
+				学生姓名：sname
+				学生性别：sgender
+				学生年龄：sage
+				学生简介：scontend
+				所属班级：sgrade
+				是否删除：isDelete
+	配置数据库，
+		1,Django默认使用sqllite
+		2,配置数据库方法：在settings.py文件中，通过DATABASES选项进行数据库配置
+		3,配置MySQL，
+			python3.x安装的是PyMySQL
+			在__init__.py文件中写入，import pymysql pymysql.install_as_MySQLdb()
+			在settings.py中配置，DATABASES = {
+											    'default': {
+											        'ENGINE': 'django.db.backends.mysql',
+											        'NAME': "sunck",  # 直接写数据库名也可以
+											        'USER': "user",  # 直接写数据库名也可以
+											        'PASSWORD': "password",  # 直接写数据库名也可以
+											        'HOST': "localhost",  # 直接写数据库名也可以
+											        'PORT': 3306,  # 直接写数据库名也可以
+											    }
+		4,创建应用，
+			1,一个项目中可以包含多个应用，每一个应用进行一种业务处理
+			2,进入到firstSite中的project目录
+			3,执行 python3 manage.py startapp myApp
+			4,myApp目录说明：
+				1,admin.py:站点配置
+				2,models.py：模型
+				3,views.py：视图
+		5,激活应用，
+			1,settings.py文件中，将新建的应用myApp加入到INSTALLED_APPS中，最后一行添加语句，'myApp',
+		6,定义模型，
+			1,有一个数据表，就对应一个模型
+			2,在models.py中定义模型
+				1,在myApp的models.py中引入，from django.db import models
+				2,引入的作用，模型类要继承models.Models类
+				3,在models.py文件中定义模型
+				4,说明：不需要定义主键，自动添加，自动增1
+		7,在数据库中生成数据表
+			1,生成迁移文件，在firestproject的project执行，python3 manage.py makemigrations，在migrations中生成了迁移文件此时数据库中还没有生成表
+			2,执行迁移，python3 manage.py migrate
+		8,测试数据操作，
+			1,执行python3 manage.py shell
+			2，引入包，
+				from myApp.models import Grades,Students
+				from django.utils import timezone
+				from datetime import * 
+			3,查询所有数据格式，类名.objects.all()，实例Grades.objects.all()
+			4,添加数据，本质就是创建一个模型类的对象实例
+				1,grade1 = Grades()
+				2,grade1.gname = "python4"
+				3,grade1.gdate = datetime(year=2017,month=7,day=17)
+				4,grade1.ggirlnum = 3
+				5,grade1.gboynum = 70
+				6,grade1.save()
+				7,重新__str__(self)函数：
+					    def __str__(self):
+       						 return "%s-%d-%d" % (self.gname,self.ggirlnum,self.gboynum)
+				8,再一次查询所有数据，Grades.objects.all()
+				9,在插入一条
+				grade2 = Grades()
+				grade2.gname = "python5"
+				grade2.gdate = datetime(year=2017,month=7,day=31)
+				grade2.ggirlnum = 1
+				grade2.gboynum = 50
+				grade2.save()
+			5,查询指定对象，
+				1,格式类名.objects.get(pk=2),实例：g2 = Grades.objects.get(pk=2)
+			6,修改一条数据中的某个值，模型对象.属性 = 新值，实例:grade2.gboynum = 60,然后保存grade2.save()
+			7,删除一条数据，模型对象.delete(),实例：grade2.delete()，直接从数据库中物理删除。
+			8,关联对象
+			看到301的开头
+
+
+
+

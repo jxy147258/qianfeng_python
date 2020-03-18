@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'myApp',
 ]
 
 MIDDLEWARE = [
@@ -76,7 +77,11 @@ WSGI_APPLICATION = 'project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': "sunck",  # 直接写数据库名也可以
+        'USER': "root",  # 直接写数据库名也可以
+        'PASSWORD': "147258Jxy",  # 直接写数据库名也可以
+        'HOST': "192.168.0.4",  # 直接写数据库名也可以
+        'PORT': "3306",  # 直接写数据库名也可以
     }
 }
 
