@@ -71,7 +71,7 @@
 				from myApp.models import Grades,Students
 				from django.utils import timezone
 				from datetime import * 
-			3,查询所有数据格式，类名.objects.all()，实例Grades.objects.all()
+			3,查询所有数据,格式:类名.objects.all()，实例Grades.objects.all()
 			4,添加数据，本质就是创建一个模型类的对象实例
 				1,grade1 = Grades()
 				2,grade1.gname = "python4"
@@ -94,7 +94,7 @@
 				1,格式类名.objects.get(pk=2),实例：g2 = Grades.objects.get(pk=2)
 			6,修改一条数据中的某个值，模型对象.属性 = 新值，实例:grade2.gboynum = 60,然后保存grade2.save()
 			7,删除一条数据，模型对象.delete(),实例：grade2.delete()，直接从数据库中物理删除。
-			8,关联对象,把学生表中学生项关联到班级表
+			8,关联对象,把学生表中学生项和班级表中班级项关联起来
 			    1,获取班级，
 			        grade1 = Grades.objects.get(pk=1)
 			    2,添加学生数据，
@@ -103,7 +103,95 @@
 			        stu.sgender = False
 			        stu.sage = 20
 			        stu.sconted = "i am zhangsan"
-			        stu.grade = grade1
+			        stu.sgrade = grade1
+                3,跨表查询，获取python04班的所有学生
+                    格式：对象名.关联的类名小写_set.all()，其中set方法是自定义函数
+                    grades1.students_set.all()
+                4,添加学生数据并关联班级python04，不用save()方法
+                    stu2 = grade1.students_set.create(sname="wangwu",sage = 45,sconted="wo shi wangwu")
+        9,启动服务器
+            1,格式：python3 manager.py runserver ip:port
+            2,说明：ip默认是localhost，可以不写，port默认是8000，可以不写，简化成：python3 manager.py runserver，只用于开发测试，不能用于生产环境
+        10,Admin站点管理
+            1,概述
+                1,内容发布:作用是增删改数据库的数据
+                2,公告发布：
+            2,配置Admin应用，在project中的settings.py中，INSTALLED_APPS标签，
+            默认已经配置，语句：'django.contrib.admin',
+            3,创建管理员用户，
+                1,命令：python3 manage.py createsuperuser
+                实例：djangouser/147258Jxy
+                2,访问url，ip:8000/admin
+                3,管理页面显示语言管理，在settings.py，
+                    LANGUAGE = ‘zh-Hans’
+                    TIME_ZONE = 'Asia/Shanghai'
+                4,在django管理站点中添加数据库管理页面
+                    修改myApp文件中得到admin.py
+                    from .models import Grades, Students
+                    admin.site.register(Grades)
+                    admin.site.register(Students)
+                5,自定义管理页面
+                    1,属性说明
+                        1,列表页属性
+                            1,list_display,添加显示字段，就是加个表头字段，可以定制字段多少
+                            list_display = ["pk", "gname", "gdate", "ggirlnum", "gboynum", "isDelete"]
+
+                            2,list_filter,添加一个过滤器，用于过滤字段，参数是过滤条件
+                            list_filter = ["gname"]
+
+                            3,search_fields,添加一个搜索框，参数用于指定搜索字段
+                            search_fields = ["gname"]
+
+                            4,list_per_page，每页显示的条目数量，默认是5,大于5才会显示分页
+                            list_per_page = 5
+                        2,添加页、修改页属性
+                            1,fields，添加和修改时，属性显示的顺序
+                                实例：fields = ["ggirlnum", "gboynum", "gname", "gdate", "isDelete"
+                            2,fieldsets，添加和修改时，把属性分成几个组，
+                                实例：fieldsets = [
+                                                    ("num", {"fields": ["ggirlnum", "gboynum"]}),
+                                                    ("base", {"fields": ["gname", "gdate", "isDelete"]})
+                                                ]
+                    2,关联对象
+                        1,需求：创建一个班级时，同时能直接添加几个学生
+                        2,步骤：
+                            1,定义一个类
+                            class StudentsInfo(admin.TabularInline): # 另一种形式admin.StackedInline
+                            model = Students
+                            extra = 2
+                            2,然后在class GradeAdmin(admin.ModelAdmin):中
+                                添加语句inlines = [StudentsInfo]
+                    3,Booleanz值显示问题，
+                        1,需求，把男女的True和False显示为男女
+                        def gender(self):
+                            if self.sgender:
+                                return "男"
+                            else:
+                                return "女"
+                         然后给list_display原来的sgender传入gender函数
+                         list_display = ["pk", "sname", gender, "sage", "scontend", "sgrade", "isDelete"]
+                        2,修改表头列的显示名
+                        # 设置页面表头列的名称
+                        gender.short_description = "性别"
+                    4,执行动作按钮在页面位置
+                        actions_on_bottom = True
+                        actions_on_top = False
+                6,使用装饰器完成注册
+                     不用admin.site.register(Students, StudentsAdmin)
+                     用装饰器
+
+
+视图的基本使用
+    1,概述：在django中，视图对web请求进行回应
+    2,本质，就是一个python函数，在views.py文件中定义
+    3,定义视图语句，
+        from django.http import HttpResponse
+        # 定义了一个视图，也就是一个html页面
+        def index(request):
+            return HttpResponse("sunck is a good man !")
+    4,上一步只是定义了一个视图，还需要在url控制器中配置url，url控制器就是project文件的urls.py文件
+
+
 
 
 
