@@ -94,8 +94,19 @@
 				1,格式类名.objects.get(pk=2),实例：g2 = Grades.objects.get(pk=2)
 			6,修改一条数据中的某个值，模型对象.属性 = 新值，实例:grade2.gboynum = 60,然后保存grade2.save()
 			7,删除一条数据，模型对象.delete(),实例：grade2.delete()，直接从数据库中物理删除。
-			8,关联对象
-			看到301的开头
+			8,关联对象,把学生表中学生项关联到班级表
+			    1,获取班级，
+			        grade1 = Grades.objects.get(pk=1)
+			    2,添加学生数据，
+			        stu = Students()
+			        stu.sname = "zhangsan"
+			        stu.sgender = False
+			        stu.sage = 20
+			        stu.sconted = "i am zhangsan"
+			        stu.grade = grade1
+
+
+
 
 
 

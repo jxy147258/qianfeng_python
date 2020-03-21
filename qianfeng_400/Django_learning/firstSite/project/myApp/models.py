@@ -8,8 +8,8 @@ class  Grades(models.Model):
     ggirlnum = models.IntegerField()
     gboynum = models.IntegerField()
     isDelete = models.BooleanField(default=False)
-    def __str__(self):
-        return "%s-%d-%d" % (self.gname,self.ggirlnum,self.gboynum)
+    # def __str__(self):
+    #     return "%s-%d-%d" % (self.gname,self.ggirlnum,self.gboynum)
 
 class Students(models.Model):
     sname = models.CharField(max_length=20)
