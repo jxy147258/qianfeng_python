@@ -1,3 +1,22 @@
+整体流程梳理：
+1，创建一个数据库，在mysql客户端中：create datebase kaishen
+2,创建工程：django-admin startproject project
+3,设计表结构
+4,创建应用，在第2步的project目录中执行命令python3 manage.py startapp myApp
+5,激活应用，在project的settings.py中，INSTALLED_APPS下最后一行写"myApp",
+6,配置数据库，在project的settings.py中，DATABASES下配置数据库的host，port，user，passwd等信息
+			  在project的__init__.py中，引入pymysql,import pymysql  pymysql.install_as_MySQLdb()
+7,在myApp的models.py定义模型类，两个class Grades和class Students
+8,生成迁移文件，python3 manage.py makemigrations
+9,执行迁移,python3 manage.py migrate
+10,启动服务器python3 manage.py runserver
+11,配置站点
+12,创建模板文件，该文件下再创建应用目录，在project下settings.py文件中配置模板路径，即templates
+13,定义视图，在myApp的views.py下写一个函数
+14,在project下修改urls.py
+15,在项目myApp下创建urls.py
+
+
 创建项目：
 	1,在合适位置创建目录
 	2,进入目录
@@ -183,13 +202,32 @@
 
 视图的基本使用
     1,概述：在django中，视图对web请求进行回应
-    2,本质，就是一个python函数，在views.py文件中定义
-    3,定义视图语句，
+    2,本质，就是一个python函数，在myApp的views.py文件中定义
         from django.http import HttpResponse
         # 定义了一个视图，也就是一个html页面
         def index(request):
             return HttpResponse("sunck is a good man !")
-    4,上一步只是定义了一个视图，还需要在url控制器中配置url，url控制器就是project文件的urls.py文件
+    3,上一步只是定义了一个视图，还需要在url控制器中配置url，url控制器就是project文件的urls.py文件
+    	from django.contrib import admin
+		from django.urls import path
+		from django.conf.urls import url, include
+		urlpatterns = [
+		    path('admin/', admin.site.urls),
+		    url(r'^', include("myApp.urls")),
+			]
+        
+        myApp的urls.py定义：
+        from django.conf.urls import url
+        from . import views
+        urlpatterns = [
+            url(r'^$', views.index),
+        ]
+        说明：先到project的urls.py,再到myApp的urls.py，再到myApp的views.py
+    4,模板的使用
+    	1,概述，本质是html页面，可以根据视图中传递过来的数据来填充
+    	2,创建模板目录，创建templates目录，在该目录下创建对应项目的模板目录，project/templates/myApp
+        3,配置路径
+
 
 
 
