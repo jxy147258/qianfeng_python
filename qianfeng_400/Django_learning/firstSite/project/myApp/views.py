@@ -29,7 +29,7 @@ def grades(request):
 
 def students(request):
     # 先去模板里取数据
-    studentsList = Students.objects.all()
+    studentsList = Students.stuObj.all()
     # 将数据传递给模板，模板再渲染页面，将渲染 好的页面返回给浏览器
     return render(request, "myApp/students.html", {"students": studentsList})
 
@@ -40,6 +40,13 @@ def gradesStudents(request, num):
     studentsList = grade.students_set.all()
     # 返回给模板
     return render(request, "myApp/students.html", {"students": studentsList})
+
+
+def addstudents(request):
+    grade = Grades.objects.get(pk=1)
+    stu = Students.createStudent("qitiandasheng", 34, True, "wo shi qitiandasheng", grade)
+    stu.save()
+    return HttpResponse("%s-保存成功" % stu.sname)
 
 
 

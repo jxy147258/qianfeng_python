@@ -10,12 +10,14 @@ urlpatterns = [
     url(r"^(\d+)/(\d)/$", views.detail),
 
     # 接受模板的传递，然后显示页面
-    url(r"^grades/$",views.grades),
+    url(r"^grades/$", views.grades),
 
     # 接受模板的传递，然后显示页面
     url(r"^students/$", views.students),
 
-
     url(r"^grades/(\d+)/$", views.gradesStudents),
+
+    # 用于在页面添加学生信息
+    url(r"^addstudents/$", views.addstudents)
 
 ]
