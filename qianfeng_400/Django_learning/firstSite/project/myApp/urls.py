@@ -18,6 +18,25 @@ urlpatterns = [
     url(r"^grades/(\d+)/$", views.gradesStudents),
 
     # 用于在页面添加学生信息
-    url(r"^addstudents/$", views.addstudents)
+    url(r"^addstudents/$", views.addstudents),
+
+    # 为了演示get()方法中返回多个对象时会报如下的错：
+    # myApp.models.Students.MultipleObjectsReturned: get() returned more than one Students -- it returned 6!
+    url(r"^students2/$", views.students2),
+
+    # 返回查询集的前5条
+    url(r"^students3/$", views.students3),
+
+    # 分页功能
+    url(r"^stu/(\d+)$", views.stupage),
+
+    # 带条件的查询功能
+    url(r"^studentSearch/$", views.studentSearch),
+
+    # F对象的使用示例
+    url(r"^gradesF/$", views.gradesF),
+
+    url(r"^kuabiao/$", views.kuabiao),
+
 
 ]

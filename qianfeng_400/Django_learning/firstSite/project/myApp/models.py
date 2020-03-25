@@ -30,14 +30,14 @@ class StudentsManager(models.Manager):
         stu.sgender=gender
         stu.scontend=contend
         stu.sgrade=grade
-        stu.isDelete=isD)
+        stu.isDelete=isD
         return stu
-该看312
+
 
 class Students(models.Model):
     # 重写管理器，而且可以有多个管理器
     stuObj = StudentsManager()  # 使用这个管理器就会过滤掉isDelete=False的学生信息
-    # stuObj1 = models.manager()  # 使用这个管理器就不会过滤
+    stuObj1 = models.Manager()  # 使用这个管理器就不会过滤
     sname = models.CharField(max_length=20)
     sgender = models.BooleanField(default=True)
     sage = models.IntegerField()
