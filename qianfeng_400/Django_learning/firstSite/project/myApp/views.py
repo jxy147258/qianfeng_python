@@ -2,11 +2,12 @@ from django.shortcuts import render
 
 # Create your views here.
 from django.http import HttpResponse
+from django.http import HttpRequest
 from .models import Grades
 from .models import Students
 
 
-# 定义了一个视图，也就是一个html页面,这是不是用模板
+# 定义了一个视图，也就是一个html页面,这是不用模板
 # def index(request):
 #     return HttpResponse("sunck is a good man !")
 # 定义一个视图，使用模板
@@ -75,7 +76,7 @@ def gradesStudents(request, num):
     return render(request, "myApp/students.html", {"students": studentsList})
 
 
-from django.db.models import F, Q
+from django.db.models import F,Q
 
 
 # F对象的使用示例
@@ -102,3 +103,27 @@ def addstudents(request):
 def kuabiao(request):
     g = Grades.objects.filter(students__scontend__contains="zhang")
     return render(request, "myApp/grades.html", {"grades": g})
+
+
+def attributions(request):
+    print(request.path)
+    print(request.FILES)
+    # print(request.GET)
+    print(request.method)
+    print(request.POST)
+    print(request.session)
+    print(request.encoding)
+    return HttpResponse("attributions")
+
+
+# 获取get方法传递的参数
+def get1(request):
+    a = request.Get.get("a")
+    b = request.Get.get("b")
+    c = request.Get.get("c")
+
+
+def get2(request):
+    a = request.Get.getlist("a")
+
+

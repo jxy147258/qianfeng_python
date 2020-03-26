@@ -20,5 +20,6 @@ from django.conf.urls import url
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url(r'^', include("myApp.urls")),
+    # url(r'^', include("myApp.urls")),
+    url(r'^sunck/', include("myApp.urls")),  # 一般在正则最后加“/”
 ]
