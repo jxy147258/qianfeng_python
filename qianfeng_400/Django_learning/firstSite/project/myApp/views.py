@@ -76,7 +76,7 @@ def gradesStudents(request, num):
     return render(request, "myApp/students.html", {"students": studentsList})
 
 
-from django.db.models import F,Q
+from django.db.models import F, Q
 
 
 # F对象的使用示例
@@ -127,3 +127,27 @@ def get2(request):
     a = request.Get.getlist("a")
 
 
+def showregist(request):
+    return render(request, "myApp/regist.html")
+
+
+def regist(request):
+    name = request.POST.get("name")
+    gender = request.POST.get("gender")
+    age = request.POST.get("age")
+    hobby = request.POST.getlist("hobby")
+    print(name)
+    print(gender)
+    print(age)
+    print(hobby)
+    return HttpResponse("0000")
+
+
+def showresponse(request):
+    res = HttpResponse()
+    res.content = b"sunck is a good man!"
+    print(res.content)
+    print(res.charset)
+    print(res.status_code)
+    # print(res.content-type)
+    return HttpResponse("0000")

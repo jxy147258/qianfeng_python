@@ -43,12 +43,16 @@ urlpatterns = [
 
 
     # 视图函数讲解：
-    # get属性
+    # GET属性
     url(r"^attributions", views.attributions),
 
+    # GET属性的两个方法，get(),getlist()
+    url(r"^get1/$", views.get1),
 
-    url(r"^get1", views.get1),
-
-    url(r"^get2", views.get2),
+    url(r"^get2/$", views.get2),
+    # POST属性
+    url(r"^showregist/$", views.showregist),
+    url(r"^showregist/regist/$", views.regist),
+    url(r"^showresponse/$", views.showresponse),
 
 ]
