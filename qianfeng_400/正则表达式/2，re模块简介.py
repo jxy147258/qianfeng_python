@@ -30,12 +30,12 @@ re.search函数
 和re.match一样，区别：
 从起始位置，以及其他任何位置只要能匹配到，就返回第一个匹配成功的下标
 '''
-print(re.search("sunck","sunk is a goo man,good man is the sunck"))
-print("----------")
+print(re.search("sunck", "sunk is a goo man,good man is the sunck"))
+print("+++++++++++")
 '''
 re.findall()函数
 和re.match一样，区别：
 返回所有匹配的结果，比如找"sunck"就把所有的sunck返回
 
 '''
-print(re.findall("sunck","sunckSunck",flags=re.I))
+print(re.findall("sunck","sunckSunck", flags=re.I))
