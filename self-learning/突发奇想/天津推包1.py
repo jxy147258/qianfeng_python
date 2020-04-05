@@ -40,23 +40,17 @@ def get_email_content():
     rsp, msg_list, rsp_siz = server.list()
     # print("服务器的响应: {0},\n消息列表： {1},\n返回消息的大小： {2}".format(rsp, msg_list, rsp_siz))
     print('邮件总数： {}'.format(len(msg_list)))
-
-    # 下面单纯获取最新的一封邮件
-    # total_mail_numbers = len(msg_list)
-    rsp, msglines, msgsiz = server.retr(len(msg_list))
-    # linux下是\n
-    print()
-    # TODO 现在是原始邮件变成二进制的时候编码有问题
-    msg_content = b'\n'.join(msglines).decode(visualcharset)
-    msg = Parser().parsestr(text=msg_content)
-
-    # print("服务器的响应: {0},\n邮件内容：{1},\n该封邮件所占字节大小： {2}".format(rsp, msglines, msgsiz))
-
-    # msg_content = b'\r\n'.join(msglines).decode('gbk')  # windows下是\r\n
-    # msg_content = b'\n'.join(msglines).decode('utf-8')  # linux下是\n
+    rsp, msglines, msgsiz = server.retr(len(msg_list)-1)
+    print(type(msglines))
+    msg_content = b'\n'.join(msglines).decode("gbk")
+    # msg是email.message对象
+    # m = Message()
+    # m["from"] = "ji xiaoyun<jixy2@yusys.com>"
+    # m["to"] = "ji xiaoyun<jixy2@yusys.com>"
+    # s = str(m),就可以将一个对象转换成一个string类型
+    # 然后parsestr就是把这个string类型的s再转换成一个对象，
     # msg = Parser().parsestr(text=msg_content)
-    # print('解码后的邮件信息:\n{0}'.format(msg))
-
+    msg = Parser().parsestr(text=str(msglines))
     # 关闭与服务器的连接，释放资源
     server.close()
 
@@ -82,7 +76,9 @@ def parser_address(msg):
         name = name.decode(charset)
     print('发送人邮箱名称: {0}，发送人邮箱地址: {1}'.format(name, addr))
     cclist = decode_header(msg.get("Cc", ""))
+    print("抄送人员名单：\n")
     for m in range(len(cclist)):
+
         if cclist[m][1]:
             print(cclist[m][0].decode(cclist[m][1]), end="\n")
         else:
@@ -91,14 +87,25 @@ def parser_address(msg):
 
 # 解析内容
 def parser_content(msg):
-    content = msg.get_payload()
-    text = content[0].as_string().split('base64')[-1]
-    base64text = base64.b64decode(text)
-    visualcharset = re.search(r"^charset=(.*?):$")
-    visualtext = base64text.decode(visualcharset)
-    print(visualtext)
+    for par in msg.walk():
+        if par.is_multipart():
+            content = par.get_payload()
+            # 纯文本
+            content_charset0 = content[1].get_content_charset()
+            print(content_charset0)
+            text0 = content[0].as_string().split('base64')[-1]
+            base64text = base64.b64decode(text0)
+            visualtext = base64text.decode(content_charset0)
+            print("纯文本内容是： ", visualtext)
 
+            # html文本
+            content_charset1 = content[1].get_content_charset()
+            text1 = content[1].as_string().split('base64')[-1]
+            html_content = base64.b64decode(text1).decode(content_charset1)
 
+            print('添加了HTML代码的信息:{0}'.format(html_content))
+        else:
+            print("原来的内容是： ", par)
 
 
 while True:
@@ -106,5 +113,5 @@ while True:
     parser_subject(msg)
     parser_address(msg)
     parser_content(msg)
-    time.sleep(10)
+    time.sleep(1)
 
