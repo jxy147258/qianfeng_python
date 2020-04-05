@@ -54,6 +54,7 @@ def get_email_content():
     # 关闭与服务器的连接，释放资源
     server.close()
 
+
     return msg
 
 
