@@ -39,10 +39,9 @@ def get_email_content():
     # 使用list()返回所有邮件的编号，默认为字节类型的串
     rsp, msg_list, rsp_siz = server.list()
     # print("服务器的响应: {0},\n消息列表： {1},\n返回消息的大小： {2}".format(rsp, msg_list, rsp_siz))
-    print('邮件总数： {}'.format(len(msg_list)))
+    print('邮件总数： {}'.format(len(msg_list)-1))
     rsp, msglines, msgsiz = server.retr(len(msg_list)-1)
-    print(type(msglines))
-    msg_content = b'\n'.join(msglines).decode("gbk")
+    # msg_content = b'\n'.join(msglines).decode("gbk")
     # msg是email.message对象
     # m = Message()
     # m["from"] = "ji xiaoyun<jixy2@yusys.com>"
@@ -50,18 +49,16 @@ def get_email_content():
     # s = str(m),就可以将一个对象转换成一个string类型
     # 然后parsestr就是把这个string类型的s再转换成一个对象，
     # msg = Parser().parsestr(text=msg_content)
-    msg = Parser().parsestr(text=str(msglines))
+    msg = Parser().parsestr(text=msglines)
     # 关闭与服务器的连接，释放资源
     server.close()
-
-
     return msg
 
 
 # 解析主题
 def parser_subject(msg):
     subject = msg['Subject']
-    value, charset = decode_header(subject)[0]
+    value, charset = decode_header(str(subject))[0]
     if charset:
         value = value.decode(charset)
     print('邮件主题： {0}'.format(value))
@@ -114,5 +111,5 @@ while True:
     parser_subject(msg)
     parser_address(msg)
     parser_content(msg)
-    time.sleep(1)
+    time.sleep(3)
 
