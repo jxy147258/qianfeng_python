@@ -41,7 +41,7 @@ def get_email_content():
     # print("服务器的响应: {0},\n消息列表： {1},\n返回消息的大小： {2}".format(rsp, msg_list, rsp_siz))
     print('邮件总数： {}'.format(len(msg_list)-1))
     rsp, msglines, msgsiz = server.retr(len(msg_list)-1)
-    # msg_content = b'\n'.join(msglines).decode("gbk")
+    msg_content = b'\n'.join(msglines).decode("utf-8")
     # msg是email.message对象
     # m = Message()
     # m["from"] = "ji xiaoyun<jixy2@yusys.com>"
@@ -49,7 +49,9 @@ def get_email_content():
     # s = str(m),就可以将一个对象转换成一个string类型
     # 然后parsestr就是把这个string类型的s再转换成一个对象，
     # msg = Parser().parsestr(text=msg_content)
-    msg = Parser().parsestr(text=msglines)
+    msg = Parser().parsestr(text=msg_content)
+    # print(msg.get_content_maintype())
+
     # 关闭与服务器的连接，释放资源
     server.close()
     return msg
@@ -85,25 +87,27 @@ def parser_address(msg):
 
 # 解析内容
 def parser_content(msg):
-    for par in msg.walk():
-        if par.is_multipart():
-            content = par.get_payload()
-            # 纯文本
-            content_charset0 = content[1].get_content_charset()
-            print(content_charset0)
-            text0 = content[0].as_string().split('base64')[-1]
-            base64text = base64.b64decode(text0)
-            visualtext = base64text.decode(content_charset0)
-            print("纯文本内容是： ", visualtext)
+    maintype = msg.get_content_maintype()
+    if maintype == "maintype":
+        for par in msg.walk():
+            if par.is_multipart():
+                content = par.get_payload()
+                # 纯文本
+                content_charset0 = content[1].get_content_charset()
+                print(content_charset0)
+                text0 = content[0].as_string().split('base64')[-1]
+                base64text = base64.b64decode(text0)
+                visualtext = base64text.decode(content_charset0)
+                print("纯文本内容是： ", visualtext)
 
-            # html文本
-            content_charset1 = content[1].get_content_charset()
-            text1 = content[1].as_string().split('base64')[-1]
-            html_content = base64.b64decode(text1).decode(content_charset1)
+                # html文本
+                content_charset1 = content[1].get_content_charset()
+                text1 = content[1].as_string().split('base64')[-1]
+                html_content = base64.b64decode(text1).decode(content_charset1)
 
-            print('添加了HTML代码的信息:{0}'.format(html_content))
-        else:
-            print("原来的内容是： ", par)
+                print('添加了HTML代码的信息:{0}'.format(html_content))
+            else:
+                print("原来的内容是： ", par)
 
 
 while True:
